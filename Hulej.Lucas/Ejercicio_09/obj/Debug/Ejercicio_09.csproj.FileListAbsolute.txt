@@ -1,0 +1,7 @@
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\bin\Debug\Ejercicio_09.exe.config
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\bin\Debug\Ejercicio_09.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\bin\Debug\Ejercicio_09.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\obj\Debug\Ejercicio_09.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\obj\Debug\Ejercicio_09.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\obj\Debug\Ejercicio_09.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_09\obj\Debug\Ejercicio_09.csprojAssemblyReference.cache
