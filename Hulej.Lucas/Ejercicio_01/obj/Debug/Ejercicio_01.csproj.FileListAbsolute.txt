@@ -5,3 +5,10 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_0
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
