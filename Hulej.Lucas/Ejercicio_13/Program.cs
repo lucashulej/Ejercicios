@@ -10,6 +10,7 @@ namespace Ejercicio_13
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio_13";
             double numero = 0;
             string binario = "";
 

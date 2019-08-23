@@ -10,7 +10,7 @@ namespace Ejercicio_07
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio-07";
+            Console.Title = "Ejercicio_07";
             DateTime fecha;
             DateTime fechaActual = DateTime.Now;
             TimeSpan diferencia;

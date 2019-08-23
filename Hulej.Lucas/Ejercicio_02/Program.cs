@@ -10,7 +10,7 @@ namespace Ejercicio_02
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio-02";
+            Console.Title = "Ejercicio_02";
             int numero;
             Console.WriteLine("Ingrese un numero");
             numero =int.Parse(Console.ReadLine());

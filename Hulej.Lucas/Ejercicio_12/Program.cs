@@ -10,7 +10,7 @@ namespace Ejercicio_12
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio-12";
+            Console.Title = "Ejercicio_12";
             int acumulador = 0;
             int numero = 0;
             char respuesta;

@@ -10,7 +10,7 @@ namespace Ejercicio_01
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio-01";
+            Console.Title = "Ejercicio_01";
             int numero;
             int i;
             int minimo = 0;
