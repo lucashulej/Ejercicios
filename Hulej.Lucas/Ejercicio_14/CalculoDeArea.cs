@@ -10,8 +10,23 @@ namespace Ejercicio_14
     {
         public static double CalcularCuadrado(double numero)
         {
-            double retorno = 0;
-            return retorno;
+            double area = 0;
+            area = numero * numero;
+            return area;
+        }
+
+        public static double CalcularTriangulo(double numeroA,double numeroB)
+        {
+            double area = 0;
+            area = (numeroA * numeroB) / 2;
+            return area;
+        }
+
+        public static double CalcularCiruculo(double numero)
+        {
+            double area = 0;
+            area = Math.PI * Math.Pow((numero / 2), 2);
+            return area;
         }
     }
 }
