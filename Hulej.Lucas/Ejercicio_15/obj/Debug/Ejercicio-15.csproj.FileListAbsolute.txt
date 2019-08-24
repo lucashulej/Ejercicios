@@ -1,7 +1,0 @@
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\bin\Debug\Ejercicio-15.exe.config
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\bin\Debug\Ejercicio-15.exe
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\bin\Debug\Ejercicio-15.pdb
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\obj\Debug\Ejercicio-15.csprojAssemblyReference.cache
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\obj\Debug\Ejercicio-15.csproj.CoreCompileInputs.cache
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\obj\Debug\Ejercicio-15.exe
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio-15\obj\Debug\Ejercicio-15.pdb

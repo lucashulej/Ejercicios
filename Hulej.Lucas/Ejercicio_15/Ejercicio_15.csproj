@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2FA2A34-7B91-45E8-A672-CAF3BB75316F}</ProjectGuid>
+    <ProjectGuid>{59D231D3-7E51-465A-BC7A-9C61413FCFA9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ejercicio_15</RootNamespace>
-    <AssemblyName>Ejercicio-15</AssemblyName>
+    <AssemblyName>Ejercicio_15</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculadora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
