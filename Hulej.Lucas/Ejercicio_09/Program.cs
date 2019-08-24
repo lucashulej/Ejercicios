@@ -13,27 +13,15 @@ namespace Ejercicio_09
             Console.Title = "Ejercicio_09";
             int numero;
             int i;
-            int j;
+            string impresion = "*";
             Console.WriteLine("Ingrese un numero");
             numero=int.Parse(Console.ReadLine());
             Console.Clear();
             for (i = 0; i < numero; i++)
             {
-                if (i == 0)
-                {
-                    Console.WriteLine("*");
-                    continue;
-                }
-                else
-                {
-                    j = 0;
-                    while (j < i+2)
-                    {
-                        Console.Write("*");
-                        j++;
-                    }
-                    Console.WriteLine("");
-                }
+                Console.Write(impresion);
+                impresion = impresion + "**";
+                Console.WriteLine("");
             }
             Console.ReadLine();
         }
