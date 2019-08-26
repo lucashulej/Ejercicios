@@ -14,10 +14,16 @@ namespace Ejercicio_13
             double numero = 0;
             string binario = "";
 
-            Console.WriteLine("Ingrese un numero");
-            numero = double.Parse(Console.ReadLine());
+            string binario2 = "";
+            double resultado = 0;
 
+            Console.WriteLine("Ingrese un numero decimal");
+            numero = double.Parse(Console.ReadLine());
             binario = Conversor.DecimalBinario(numero);
+
+            Console.WriteLine("Ingrese un numero binario");
+            binario2 = Console.ReadLine();
+            resultado = Conversor.BinarioDecimal(binario2);
             Console.WriteLine(binario);
 
             Console.ReadLine();

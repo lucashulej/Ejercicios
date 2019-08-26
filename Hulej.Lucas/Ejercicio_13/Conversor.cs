@@ -33,6 +33,19 @@ namespace Ejercicio_13
                 numeroInt = numeroInt / 2;
             } 
             return binario;
-        }   
+        }
+        public static int BinarioDecimal(string numero)
+        {
+            int resultado = 0;
+            int i = 0;
+            int j = 0;
+            string binario;
+            for (i = numero.Length - 1; i > -1; i++)
+            {
+                //binario[j] = numero[i];
+                j++;
+            }
+            return resultado;
+        }
     }
 }
