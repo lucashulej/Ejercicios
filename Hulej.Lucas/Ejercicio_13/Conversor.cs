@@ -15,7 +15,6 @@ namespace Ejercicio_13
             int resto;
 
             numeroInt = (int) numero;
-            Console.WriteLine(numeroInt);
 
             while (numeroInt > 0)
             {
@@ -36,16 +35,26 @@ namespace Ejercicio_13
         }
         public static int BinarioDecimal(string numero)
         {
-            int resultado = 0;
             int i = 0;
             int j = 0;
-            string binario;
-            for (i = numero.Length - 1; i > -1; i++)
+            string binario = "";
+            int Ndecimal = 0;
+            int multiplicador = 1;
+            for (i = numero.Length - 1; i > -1; i--)
             {
-                //binario[j] = numero[i];
+                binario = numero[j] + binario;
                 j++;
             }
-            return resultado;
+            for (i = 0; i < binario.Length; i++)
+            {
+                if (binario[i] == '1')
+                {
+                    Ndecimal = Ndecimal + multiplicador;
+                }
+                multiplicador = Convert.ToInt32(Math.Pow(2, i + 1));
+            }
+
+            return Ndecimal;
         }
     }
 }

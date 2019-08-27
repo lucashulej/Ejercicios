@@ -12,19 +12,20 @@ namespace Ejercicio_13
         {
             Console.Title = "Ejercicio_13";
             double numero = 0;
-            string binario = "";
+            string resultado = "";
 
-            string binario2 = "";
-            double resultado = 0;
+            string binario = "";
+            int Ndeciemal = 0;
 
             Console.WriteLine("Ingrese un numero decimal");
             numero = double.Parse(Console.ReadLine());
-            binario = Conversor.DecimalBinario(numero);
+            resultado = Conversor.DecimalBinario(numero);
+            Console.WriteLine("El numero {0} en binario es {1}",numero,resultado);
 
             Console.WriteLine("Ingrese un numero binario");
-            binario2 = Console.ReadLine();
-            resultado = Conversor.BinarioDecimal(binario2);
-            Console.WriteLine(binario);
+            binario = Console.ReadLine();
+            Ndeciemal = Conversor.BinarioDecimal(binario);
+            Console.WriteLine("El numero {0} en decimal es {1}", binario, Ndeciemal);
 
             Console.ReadLine();
         }

@@ -1,0 +1,7 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.csprojAssemblyReference.cache
