@@ -16,10 +16,10 @@ namespace Ejercicio_17
             string impresionRojo;
             ConsoleColor actual = Console.ForegroundColor;
 
-            Boligrafo azul = new Boligrafo(ConsoleColor.Blue, 100);
+            Boligrafo azul = new Boligrafo(ConsoleColor.Blue, 30);
             Boligrafo rojo = new Boligrafo(ConsoleColor.Red, 50);
 
-            if(azul.Pintar(20,out impresionAzul)==true)
+            if(azul.Pintar(10,out impresionAzul)==true)
             {
                 Console.ForegroundColor = azul.GetColor();
                 Console.WriteLine(impresionAzul);

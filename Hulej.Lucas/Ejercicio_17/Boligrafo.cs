@@ -32,10 +32,15 @@ namespace Ejercicio_17
         {
             bool retorno = false;
             dibujo = "";
+            int porcentaje;
+            porcentaje = ((this.tinta - gasto) * 100) / this.tinta;
+            porcentaje = 100 - porcentaje;
+            porcentaje = porcentaje / 10;
+
             if(this.tinta - gasto > 0)
             {
                 retorno = true;
-                for (int i = 0; i < gasto; i++)
+                for (int i = 0; i < porcentaje; i++)
                 {
                     dibujo = dibujo + '*';
                 }
