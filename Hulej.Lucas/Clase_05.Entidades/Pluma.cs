@@ -17,6 +17,7 @@ namespace Clase_05.Entidades
         public Pluma()
         {
             this.marca = "Sin marca";
+            this.tinta = new Tinta();
         }
 
         public Pluma(string marca) 

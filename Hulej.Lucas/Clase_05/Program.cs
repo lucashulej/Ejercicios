@@ -24,9 +24,13 @@ namespace Clase_05
 
             Console.WriteLine((string)tinta1);
 
-            Pluma pluma1 = new Pluma("Castel",tinta3,4);
             string plumaString;
+            Pluma pluma1 = new Pluma("Castel",tinta3,4);
+            Pluma pluma2 = new Pluma();
+
             plumaString = pluma1;
+            Console.WriteLine("\n" + plumaString);
+            plumaString = pluma2;
             Console.WriteLine("\n" + plumaString);
 
             Console.ReadLine();
