@@ -17,10 +17,10 @@ namespace Clase_05.Entidades
         public Pluma()
         {
             this.marca = "Sin marca";
-            this.tinta = new Tinta();
+            //this.tinta = new Tinta();
         }
 
-        public Pluma(string marca) 
+        public Pluma(string marca) : this()
         {
             this.marca = marca;
         }
