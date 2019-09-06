@@ -73,7 +73,7 @@ namespace Clase_06.Entidades
 
             if (paleta == tempera)
             {
-                posicionTempera = paleta.buscarTempera(tempera);
+                posicionTempera = paleta | tempera;
                 paleta.colores[posicionTempera] = paleta.colores[posicionTempera] + tempera;
                 aux = true;
             }
@@ -106,12 +106,12 @@ namespace Clase_06.Entidades
             return posicion;
         }
 
-        private int buscarTempera(Tempera tempera)
+        public static int operator |(Paleta paleta, Tempera tempera)
         {
             int posicion = -1;
-            for (int i = 0; i < this.colores.Length; i++)
+            for (int i = 0; i < paleta.colores.Length; i++)
             {
-                if (this.colores[i] == tempera)
+                if (paleta.colores[i] == tempera)
                 {
                     posicion = i;
                     break;
@@ -119,11 +119,5 @@ namespace Clase_06.Entidades
             }
             return posicion;
         }
-
-        //public static int operator |(Paleta paleta,Tempera tempera)
-        //{
-        //    int posicion = -1;
-
-        //}
     }
 }

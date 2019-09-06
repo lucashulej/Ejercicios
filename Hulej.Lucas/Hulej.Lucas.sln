@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_01", "Ejercicio_01\Ejercicio_01.csproj", "{23DC47B4-0902-4763-BFAC-9C37C14209D1}"
 EndProject
@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_02", "Clase_02\Clase_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiLibreria", "MiLibreria\MiLibreria.csproj", "{8F4F6A49-0082-40B3-83E9-FC444CB46DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase02.Entidades", "Clase02.Entidades\Clase02.Entidades.csproj", "{5CF74567-3E40-4C94-B70E-77CE879FCBC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_02.Entidades", "Clase02.Entidades\Clase_02.Entidades.csproj", "{5CF74567-3E40-4C94-B70E-77CE879FCBC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_11", "Ejercicio_11\Ejercicio_11.csproj", "{8BA6746B-DE21-4F7A-AB89-6191F1047F71}"
 EndProject
@@ -58,6 +58,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_06.Entidades", "Clase_06.Entidades\Clase_06.Entidades.csproj", "{C317B669-AF0A-4EDA-A9E0-1CC9AC206D32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_06", "Clase_06\Clase_06.csproj", "{A5A33271-2583-4C37-92DC-2D00FB113AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejericicio_26", "Ejericicio_26\Ejericicio_26.csproj", "{077D3570-55CF-42CD-8177-177D04D24785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{A5A33271-2583-4C37-92DC-2D00FB113AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A33271-2583-4C37-92DC-2D00FB113AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A33271-2583-4C37-92DC-2D00FB113AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077D3570-55CF-42CD-8177-177D04D24785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077D3570-55CF-42CD-8177-177D04D24785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077D3570-55CF-42CD-8177-177D04D24785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077D3570-55CF-42CD-8177-177D04D24785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

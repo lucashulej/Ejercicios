@@ -4,3 +4,8 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Enti
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb

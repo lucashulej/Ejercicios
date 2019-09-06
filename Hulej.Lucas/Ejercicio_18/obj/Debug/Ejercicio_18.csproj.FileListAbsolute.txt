@@ -1,0 +1,6 @@
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\bin\Debug\Ejercicio_18.exe.config
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\bin\Debug\Ejercicio_18.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\bin\Debug\Ejercicio_18.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\obj\Debug\Ejercicio_18.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\obj\Debug\Ejercicio_18.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_18\obj\Debug\Ejercicio_18.pdb

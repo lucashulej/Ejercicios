@@ -1,7 +1,6 @@
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\bin\Debug\Ejercicio_14.exe.config
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\bin\Debug\Ejercicio_14.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\bin\Debug\Ejercicio_14.pdb
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.csprojAssemblyReference.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.pdb
@@ -12,3 +11,4 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.csproj
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_14\obj\Debug\Ejercicio_14.csprojAssemblyReference.cache

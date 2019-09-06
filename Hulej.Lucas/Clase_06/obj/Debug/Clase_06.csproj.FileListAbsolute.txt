@@ -8,3 +8,13 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.csproj.CoreCom
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.csproj.CopyComplete
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\bin\Debug\Clase_06.exe.config
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\bin\Debug\Clase_06.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\bin\Debug\Clase_06.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\bin\Debug\Clase_06.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\bin\Debug\Clase_06.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_06\obj\Debug\Clase_06.pdb
