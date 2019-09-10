@@ -33,8 +33,19 @@ namespace Clase_06.WF
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            this.tempera = new Tempera((ConsoleColor)this.cmbColor.SelectedItem, this.txtMarca.Text, int.Parse(this.txtCantidad.Text));
+            ConsoleColor color = (ConsoleColor)this.cmbColor.SelectedItem;
+            string marca = this.txtMarca.Text;
+            int cantidad = int.Parse(this.txtCantidad.Text);
+
+            this.tempera = new Tempera(color,marca,cantidad);
             MessageBox.Show(tempera);
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
         }
     }
 }

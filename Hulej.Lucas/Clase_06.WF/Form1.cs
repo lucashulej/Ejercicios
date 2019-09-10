@@ -12,7 +12,7 @@ namespace Clase_06.WF
 {
     public partial class Form1 : Form
     {
-        Paleta paleta;
+        Paleta paleta = 5;
         public Form1()
         {
             InitializeComponent();
@@ -25,19 +25,17 @@ namespace Clase_06.WF
             TemperaForms frm = new TemperaForms();
             //frm.MdiParent = this;
             frm.ShowDialog();
-            this.paleta += frm.MiTempera;
-            this.listBox1.Items.Add(paleta);
-            
-        }
-
-        private void paleta_Enter(object sender, EventArgs e)
-        {
-
+            if(frm.DialogResult == DialogResult.OK)
+            {
+                this.paleta = this.paleta + frm.MiTempera;
+                this.list.Items.Add(paleta);
+            }   
         }
 
         private void paletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.grpPaleta.Visible = true;
         }
+
     }
 }

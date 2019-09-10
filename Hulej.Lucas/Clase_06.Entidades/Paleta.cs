@@ -77,18 +77,20 @@ namespace Clase_06.Entidades
                 paleta.colores[posicionTempera] = paleta.colores[posicionTempera] + tempera;
                 aux = true;
             }
-            
-            if(aux == false)
+            if(!Object.Equals(paleta,null))
             {
-                for(int i = 0; i < paleta.colores.Length;i++)
+                if (aux == false)
                 {
-                    posicion = paleta.buscarLibre();
+                    //for (int i = 0; i < paleta.colores.Length; i++)
+                    //{
+                        posicion = paleta.buscarLibre();
+                    //}
+                    if (posicion != -1)
+                    {
+                        paleta.colores[posicion] = tempera;
+                    }
                 }
-                if(posicion != -1)
-                {
-                    paleta.colores[posicion] = tempera;
-                }
-            }
+            } 
             return paleta;
         }
 

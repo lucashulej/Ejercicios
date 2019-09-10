@@ -11,11 +11,11 @@ namespace Clase_06
     {
         static void Main(string[] args)
         {
-            //Paleta a = 3;
-            //string algo = (string) a;
-            //Console.WriteLine(a);
-            //Console.ReadLine();
-         
+            Paleta a = 3;
+            string algo = (string)a;
+            Console.WriteLine(a);
+            Console.ReadLine();
+
         }
     }
 }
