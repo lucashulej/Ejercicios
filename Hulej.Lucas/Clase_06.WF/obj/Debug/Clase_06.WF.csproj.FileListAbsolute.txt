@@ -1,0 +1,14 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\bin\Debug\Clase_06.WF.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\bin\Debug\Clase_06.WF.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\bin\Debug\Clase_06.WF.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\bin\Debug\Clase_06.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\bin\Debug\Clase_06.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.Form1.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.Properties.Resources.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.GenerateResource.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_06.WF\obj\Debug\Clase_06.WF.TemperaForms.resources
