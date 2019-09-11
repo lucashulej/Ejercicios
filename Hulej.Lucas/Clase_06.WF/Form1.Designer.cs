@@ -34,6 +34,8 @@
             this.temperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grpPaleta = new System.Windows.Forms.GroupBox();
             this.list = new System.Windows.Forms.ListBox();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.btnMinus = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.grpPaleta.SuspendLayout();
             this.SuspendLayout();
@@ -68,12 +70,14 @@
             // temperaToolStripMenuItem
             // 
             this.temperaToolStripMenuItem.Name = "temperaToolStripMenuItem";
-            this.temperaToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.temperaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.temperaToolStripMenuItem.Text = "Tempera";
             this.temperaToolStripMenuItem.Click += new System.EventHandler(this.temperaToolStripMenuItem_Click);
             // 
             // grpPaleta
             // 
+            this.grpPaleta.Controls.Add(this.btnMinus);
+            this.grpPaleta.Controls.Add(this.btnPlus);
             this.grpPaleta.Controls.Add(this.list);
             this.grpPaleta.Location = new System.Drawing.Point(7, 35);
             this.grpPaleta.Name = "grpPaleta";
@@ -87,8 +91,30 @@
             this.list.FormattingEnabled = true;
             this.list.Location = new System.Drawing.Point(0, 32);
             this.list.Name = "list";
-            this.list.Size = new System.Drawing.Size(431, 238);
+            this.list.Size = new System.Drawing.Size(431, 212);
             this.list.TabIndex = 0;
+            // 
+            // btnPlus
+            // 
+            this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlus.Location = new System.Drawing.Point(6, 250);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(89, 24);
+            this.btnPlus.TabIndex = 1;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
+            // 
+            // btnMinus
+            // 
+            this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinus.Location = new System.Drawing.Point(336, 250);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(89, 24);
+            this.btnMinus.TabIndex = 2;
+            this.btnMinus.Text = "-";
+            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // Form1
             // 
@@ -117,6 +143,8 @@
         private System.Windows.Forms.ToolStripMenuItem temperaToolStripMenuItem;
         private System.Windows.Forms.GroupBox grpPaleta;
         private System.Windows.Forms.ListBox list;
+        private System.Windows.Forms.Button btnMinus;
+        private System.Windows.Forms.Button btnPlus;
     }
 }
 

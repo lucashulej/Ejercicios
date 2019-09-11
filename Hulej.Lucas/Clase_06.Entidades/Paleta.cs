@@ -11,6 +11,19 @@ namespace Clase_06.Entidades
         private Tempera[] colores;
         private int cantidadMaximaColores;
 
+
+        //public Tempera[] GetTemperas
+        //{
+        //    get { return this.colores; }
+        //    set { this.colores = value; }
+        //}
+
+        public Tempera this[int index]
+        {
+            get { return this.colores[index]; }
+            //set {; }
+        }
+
         private Paleta() : this(5)
         {
 
@@ -33,11 +46,18 @@ namespace Clase_06.Entidades
             string aux;
             for (int i = 0; i < this.colores.Length; i++)
             {
-                aux = colores[i];
-                oracion = oracion + aux + "\n";
+                if (Object.Equals(colores[i],null) == false)
+                {
+                    aux = colores[i];
+                    oracion = oracion + aux + "|| ";
+                }
+                else
+                {
+                    break;
+                }
             }
 
-            return "Cantidad Maxima Colores " + this.cantidadMaximaColores + "\n" + oracion;
+            return "Cantidad Maxima Colores " + this.cantidadMaximaColores + "|| " + oracion;
         }
 
         public static explicit operator string(Paleta paleta)
@@ -48,14 +68,14 @@ namespace Clase_06.Entidades
         public static bool operator ==(Paleta paleta, Tempera tempera)
         {
             bool retorno = false;
-            if (Object.Equals(paleta, null) == false && Object.Equals(tempera, null) == false)
+            for (int i = 0; i < paleta.colores.Length; i++)
             {
-                for(int i = 0; i < paleta.colores.Length; i++)
-                {
-                    retorno = (paleta.colores[i] == tempera);
-                    if (retorno == true)
-                        break;
-                }
+                if (Object.Equals(paleta.colores[i], null))
+                    break;
+
+                retorno = (paleta.colores[i] == tempera);
+                if (retorno == true)
+                    break;
             }
             return retorno;
         }
@@ -70,27 +90,41 @@ namespace Clase_06.Entidades
             bool aux = false;
             int posicion = -1;
             int posicionTempera = -1;
+            if(Object.Equals(paleta,null) == false && Object.Equals(tempera, null) == false)
+            {
+                if (paleta == tempera)
+                {
+                    posicionTempera = paleta | tempera;
+                    paleta.colores[posicionTempera] = paleta.colores[posicionTempera] + tempera;
+                    aux = true;
+                }
 
-            if (paleta == tempera)
-            {
-                posicionTempera = paleta | tempera;
-                paleta.colores[posicionTempera] = paleta.colores[posicionTempera] + tempera;
-                aux = true;
-            }
-            if(!Object.Equals(paleta,null))
-            {
                 if (aux == false)
                 {
-                    //for (int i = 0; i < paleta.colores.Length; i++)
-                    //{
-                        posicion = paleta.buscarLibre();
-                    //}
+                    posicion = paleta.buscarLibre();
+
                     if (posicion != -1)
                     {
                         paleta.colores[posicion] = tempera;
                     }
                 }
-            } 
+            }
+            return paleta;
+        }
+
+        public static Paleta operator -(Paleta paleta, Tempera tempera)
+        {
+            bool aux = false;
+            int posicion = -1;
+            int posicionTempera = -1;
+            if (Object.Equals(paleta, null) == false && Object.Equals(tempera, null) == false)
+            {
+                if (paleta == tempera)
+                {
+                    posicionTempera = paleta | tempera;
+                    paleta.colores[posicionTempera] = paleta.colores[posicionTempera] - tempera;
+                }       
+            }
             return paleta;
         }
 

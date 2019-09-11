@@ -21,17 +21,17 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
-            return "Color: " + this.color + "\nMarca: " + this.marca + "\nCantidad: " + this.cantidad;
+            return "\nColor: " + this.color + "\n Marca: " + this.marca + "\n Cantidad: " + this.cantidad;
         }
         
-        public static implicit operator string(Tempera ver)
+        public static implicit operator string(Tempera tempera)
         {
-            return ver.Mostrar();
+            return tempera.Mostrar();
         }
 
         public static bool operator ==(Tempera tempera1, Tempera tempera2)
         {
-            if (Object.Equals(tempera1, null) == false && Object.Equals(tempera1, null) == false)
+            if (Object.Equals(tempera1, null) == false && Object.Equals(tempera2, null) == false)
             {
                 return (tempera1.color == tempera2.color && tempera1.marca == tempera2.marca);
             }
@@ -50,11 +50,27 @@ namespace Clase_06.Entidades
             return tempera;
         }
 
+        public static Tempera operator -(Tempera tempera, int cantidad)
+        {
+            tempera.cantidad = tempera.cantidad - cantidad;
+            return tempera;
+        }
+
         public static Tempera operator +(Tempera tempera1, Tempera tempera2)
         {
             if(tempera1 == tempera2)
                 tempera1 = tempera1 + tempera2.cantidad;
 
+            return tempera1;
+        }
+
+        public static Tempera operator -(Tempera tempera1, Tempera tempera2)
+        {
+            if (tempera1 == tempera2)
+                tempera1 = tempera1 - tempera2.cantidad;
+
+            if (tempera1.cantidad < 1)
+                tempera1 = null;
             return tempera1;
         }
 

@@ -28,7 +28,14 @@ namespace Clase_06.WF
             if(frm.DialogResult == DialogResult.OK)
             {
                 this.paleta = this.paleta + frm.MiTempera;
-                this.list.Items.Add(paleta);
+                this.list.Items.Clear();
+                for (int i = 0; i < 5; i++)
+                {
+                    if (Object.Equals(paleta[i], null))
+                        break;
+                    this.list.Items.Add((string)paleta[i]);
+                }
+                //this.list.Items.Add((string)paleta);
             }   
         }
 
@@ -37,5 +44,28 @@ namespace Clase_06.WF
             this.grpPaleta.Visible = true;
         }
 
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            TemperaForms frm = new TemperaForms(); 
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                this.paleta = this.paleta + frm.MiTempera;
+                this.list.Items.Clear();
+                this.list.Items.Add((string)paleta);
+            }
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            TemperaForms frm = new TemperaForms();
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                this.paleta = this.paleta - frm.MiTempera;
+                this.list.Items.Clear();
+                this.list.Items.Add((string)paleta);
+            }
+        }
     }
 }
