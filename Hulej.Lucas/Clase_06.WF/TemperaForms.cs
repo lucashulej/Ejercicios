@@ -28,7 +28,6 @@ namespace Clase_06.WF
                 this.cmbColor.Items.Add(color);
 
             this.cmbColor.SelectedItem = ConsoleColor.Magenta;
-
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)

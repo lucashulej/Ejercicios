@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejericicio_26
+namespace Ejercicio_26
 {
     class Program
     {
@@ -28,7 +28,7 @@ namespace Ejericicio_26
             }
 
             Console.WriteLine("Lista como fue cargada:");
-            foreach(int i in lista)
+            foreach (int i in lista)
             {
                 Console.WriteLine(i);
             }
@@ -46,7 +46,7 @@ namespace Ejericicio_26
             }
 
             Comparison<int> comparador1 = new Comparison<int>((num1, num2) => num2.CompareTo(num1));
-            Array.Sort(listaPositivos,comparador1);
+            Array.Sort(listaPositivos, comparador1);
 
             foreach (int i in listaPositivos)
             {
