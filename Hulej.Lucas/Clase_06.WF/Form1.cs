@@ -22,8 +22,8 @@ namespace Clase_06.WF
 
         private void temperaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TemperaForms frm = new TemperaForms();
             //frm.MdiParent = this;
+            TemperaForms frm = new TemperaForms();
             frm.ShowDialog();
             if(frm.DialogResult == DialogResult.OK)
             {
@@ -31,11 +31,11 @@ namespace Clase_06.WF
                 this.list.Items.Clear();
                 for (int i = 0; i < 5; i++)
                 {
-                    if (Object.Equals(paleta[i], null))
-                        break;
-                    this.list.Items.Add((string)paleta[i]);
+                    if (Object.Equals(paleta[i], null) == false)
+                    {
+                        this.list.Items.Add((string)paleta[i]);
+                    }
                 }
-                //this.list.Items.Add((string)paleta);
             }   
         }
 
@@ -52,7 +52,13 @@ namespace Clase_06.WF
             {
                 this.paleta = this.paleta + frm.MiTempera;
                 this.list.Items.Clear();
-                this.list.Items.Add((string)paleta);
+                for (int i = 0; i < 5; i++)
+                {
+                    if (Object.Equals(paleta[i], null) == false)
+                    {
+                        this.list.Items.Add((string)paleta[i]);
+                    }
+                }
             }
         }
 
@@ -64,7 +70,13 @@ namespace Clase_06.WF
             {
                 this.paleta = this.paleta - frm.MiTempera;
                 this.list.Items.Clear();
-                this.list.Items.Add((string)paleta);
+                for (int i = 0; i < 5; i++)
+                {
+                    if (Object.Equals(paleta[i], null) == false)
+                    {
+                        this.list.Items.Add((string)paleta[i]);
+                    }
+                }
             }
         }
     }

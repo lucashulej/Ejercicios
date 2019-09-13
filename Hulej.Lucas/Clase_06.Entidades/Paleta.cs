@@ -21,7 +21,6 @@ namespace Clase_06.Entidades
         public Tempera this[int index]
         {
             get { return this.colores[index]; }
-            //set {; }
         }
 
         private Paleta() : this(5)
@@ -114,8 +113,6 @@ namespace Clase_06.Entidades
 
         public static Paleta operator -(Paleta paleta, Tempera tempera)
         {
-            bool aux = false;
-            int posicion = -1;
             int posicionTempera = -1;
             if (Object.Equals(paleta, null) == false && Object.Equals(tempera, null) == false)
             {
