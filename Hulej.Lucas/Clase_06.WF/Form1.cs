@@ -79,5 +79,31 @@ namespace Clase_06.WF
                 }
             }
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Tempera t = null;
+
+            if (this.list.SelectedIndex >= 0)
+                t = this.paleta[this.list.SelectedIndex];
+
+            if(Object.Equals(t,null) == false)
+            {
+                TemperaForms frm = new TemperaForms();
+                frm.ShowDialog();
+                if (frm.DialogResult == DialogResult.OK)
+                {
+                    this.list.Items.Clear();
+                   // this.paleta[this.list.SelectedIndex] = t;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        if (Object.Equals(paleta[i], null) == false)
+                        {
+                            this.list.Items.Add((string)paleta[i]);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

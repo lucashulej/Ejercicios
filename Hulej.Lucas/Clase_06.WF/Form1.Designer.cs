@@ -33,9 +33,10 @@
             this.paletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.temperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grpPaleta = new System.Windows.Forms.GroupBox();
-            this.list = new System.Windows.Forms.ListBox();
-            this.btnPlus = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.list = new System.Windows.Forms.ListBox();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.grpPaleta.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +77,7 @@
             // 
             // grpPaleta
             // 
+            this.grpPaleta.Controls.Add(this.btnModificar);
             this.grpPaleta.Controls.Add(this.btnMinus);
             this.grpPaleta.Controls.Add(this.btnPlus);
             this.grpPaleta.Controls.Add(this.list);
@@ -86,13 +88,16 @@
             this.grpPaleta.TabStop = false;
             this.grpPaleta.Text = "groupBox1";
             // 
-            // list
+            // btnMinus
             // 
-            this.list.FormattingEnabled = true;
-            this.list.Location = new System.Drawing.Point(0, 32);
-            this.list.Name = "list";
-            this.list.Size = new System.Drawing.Size(431, 212);
-            this.list.TabIndex = 0;
+            this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinus.Location = new System.Drawing.Point(336, 250);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(89, 24);
+            this.btnMinus.TabIndex = 2;
+            this.btnMinus.Text = "-";
+            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnPlus
             // 
@@ -105,16 +110,24 @@
             this.btnPlus.UseVisualStyleBackColor = true;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
-            // btnMinus
+            // list
             // 
-            this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinus.Location = new System.Drawing.Point(336, 250);
-            this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(89, 24);
-            this.btnMinus.TabIndex = 2;
-            this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
-            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
+            this.list.FormattingEnabled = true;
+            this.list.Location = new System.Drawing.Point(0, 32);
+            this.list.Name = "list";
+            this.list.Size = new System.Drawing.Size(431, 212);
+            this.list.TabIndex = 0;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Location = new System.Drawing.Point(173, 250);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(89, 24);
+            this.btnModificar.TabIndex = 3;
+            this.btnModificar.Text = "MODIFICAR";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // Form1
             // 
@@ -145,6 +158,7 @@
         private System.Windows.Forms.ListBox list;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btnPlus;
+        private System.Windows.Forms.Button btnModificar;
     }
 }
 
