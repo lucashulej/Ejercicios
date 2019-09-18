@@ -8,3 +8,13 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.csproj
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.csproj.CopyComplete
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\bin\Debug\Clase_05.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\bin\Debug\Clase_05.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\bin\Debug\Clase_05.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\bin\Debug\Clase_05.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\bin\Debug\Clase_05.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05\obj\Debug\Clase_05.pdb

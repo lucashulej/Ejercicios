@@ -8,7 +8,6 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_10\obj\Debug\Ejercicio_1
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\bin\Debug\Ejercicio_10.exe.config
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\bin\Debug\Ejercicio_10.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\bin\Debug\Ejercicio_10.pdb
-D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\obj\Debug\Ejercicio_10.csprojAssemblyReference.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\obj\Debug\Ejercicio_10.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\obj\Debug\Ejercicio_10.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_10\obj\Debug\Ejercicio_10.pdb

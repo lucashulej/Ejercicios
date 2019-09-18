@@ -1,0 +1,5 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\bin\Debug\Clase02.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\bin\Debug\Clase02.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entidades.pdb

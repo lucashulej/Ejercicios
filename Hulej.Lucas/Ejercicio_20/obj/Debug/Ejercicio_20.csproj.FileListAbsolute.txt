@@ -4,3 +4,9 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_20\bin\Debug\Ejercicio_2
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\bin\Debug\Ejercicio_20.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\bin\Debug\Ejercicio_20.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\bin\Debug\Ejercicio_20.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_20\obj\Debug\Ejercicio_20.pdb

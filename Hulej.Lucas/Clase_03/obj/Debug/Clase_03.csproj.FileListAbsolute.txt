@@ -4,7 +4,6 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.pdb
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.pdb
-D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_03\obj\Debug\Clase_03.csprojAssemblyReference.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.exe.config
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_03\bin\Debug\Clase_03.pdb
