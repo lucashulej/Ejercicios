@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_09.Entidades
 {
-    class Catedra
+    public class Catedra
     {
         private List<Alumno> alumnos;
 

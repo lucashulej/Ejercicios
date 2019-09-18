@@ -9,3 +9,4 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05.Entidades\obj\Debug\Clase_05.Enti
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05.Entidades\obj\Debug\Clase_05.Entidades.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05.Entidades\obj\Debug\Clase_05.Entidades.dll
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_05.Entidades\obj\Debug\Clase_05.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_05.Entidades\obj\Debug\Clase_05.Entidades.csprojAssemblyReference.cache

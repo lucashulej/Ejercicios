@@ -3,3 +3,8 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\MiLibreria\bin\Debug\MiLibreria.pdb
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.dll
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\MiLibreria\obj\Debug\MiLibreria.pdb

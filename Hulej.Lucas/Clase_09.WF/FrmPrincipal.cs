@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Clase_09.Entidades;
 
 namespace Clase_09.WF
 {
@@ -15,7 +16,19 @@ namespace Clase_09.WF
         public FrmPrincipal()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
+            //this.IsMdiContainer = true;
+        }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CatedraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCatedra frmCatedra = new FrmCatedra();
+            //frmCat.MdiParent = this;
+            frmCatedra.ShowDialog();
         }
     }
 }
