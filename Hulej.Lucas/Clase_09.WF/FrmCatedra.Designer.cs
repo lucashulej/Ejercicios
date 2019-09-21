@@ -74,6 +74,7 @@
             this.comboBox.Name = "comboBox";
             this.comboBox.Size = new System.Drawing.Size(345, 21);
             this.comboBox.TabIndex = 3;
+            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.ComboBox_SelectedIndexChanged);
             // 
             // listBox
             // 
@@ -114,6 +115,7 @@
             this.Controls.Add(this.groupCalificados);
             this.Controls.Add(this.groupAlumnos);
             this.Name = "FrmCatedra";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCatedra";
             this.groupAlumnos.ResumeLayout(false);
             this.ResumeLayout(false);
