@@ -14,7 +14,7 @@ namespace Clase_09.WF
     public partial class FrmCatedra : Form
     {
         private Catedra catedra = new Catedra();
-        public List<Alumno> listaAlumnos;
+        public List<Alumno> listaAlumnosCalificados = new List<Alumno>();
 
         public FrmCatedra()
         {
@@ -86,7 +86,6 @@ namespace Clase_09.WF
                     catedra.Alumnos.Sort(Alumno.OrdenarPorLegajoDesc);
                     printList();
                     break;
-
             }
         }
 
@@ -95,8 +94,83 @@ namespace Clase_09.WF
             this.listBox.Items.Clear();
             foreach (Alumno auxiliar in catedra.Alumnos)
             {
-                this.listBox.Items.Add(Alumno.Mostrar(auxiliar));
+                this.listBox.Items.Add(auxiliar.ToString()); //
             }
+        }
+
+        private void BtnCalificar_Click(object sender, EventArgs e)
+        {
+            if (this.catedra.Alumnos.Count > 0)
+            {
+                if(this.listBox.SelectedIndex >= 0)
+                {
+                    FrmAlumnoCalificado frmCalificado = new FrmAlumnoCalificado();
+                    frmCalificado.ShowDialog();
+
+                    //Alumno auxiliar = this.catedra.Alumnos[this.listBox.SelectedIndex];
+
+                    //this.catedra.Alumnos.Remove(auxiliar);
+                    //this.listaAlumnosCalificados.Add(auxiliar);
+
+                    //printSortedList(); //BORRA LA LISTBOX Y LA VUELVE A IMPRIMIR
+
+                    //this.listBoxCalificados.Items.Add(auxiliar.ToString()); //
+                }
+                else
+                    MessageBox.Show("Seleccione un alumno");
+
+            }
+            else
+                MessageBox.Show("No hay alumnos ingresados");
+        }
+
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+            if (this.catedra.Alumnos.Count > 0)
+            {
+                if (this.listBox.SelectedIndex >= 0)
+                {
+                    FrmAlumno frmAlumno = new FrmAlumno();
+                    Alumno alumno;
+                    bool existeLegajo = false;
+                    int index = 0;
+
+                    index = this.listBox.SelectedIndex;
+                    frmAlumno.ShowDialog();
+
+                    if (frmAlumno.DialogResult == DialogResult.OK)
+                    {
+                        alumno = frmAlumno.GetAlumno;
+                        foreach (Alumno auxiliar in catedra.Alumnos)
+                        {
+                            if (auxiliar.Legajo == alumno.Legajo)
+                            {
+                                if (auxiliar.Legajo == catedra.Alumnos[index].Legajo)
+                                    continue;
+
+                                existeLegajo = true;
+                                break;
+                            }
+                        }
+
+                        if (existeLegajo == false)
+                        {
+                            catedra.Alumnos.RemoveAt(index);
+                            catedra.Alumnos.Add(alumno);
+                            printSortedList();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El legajo no es valido");
+                        }
+                    }
+                }
+                else
+                    MessageBox.Show("Seleccione un alumno");
+
+            }
+            else
+                MessageBox.Show("No hay alumnos ingresados");
         }
     }
       

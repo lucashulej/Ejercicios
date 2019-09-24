@@ -35,7 +35,9 @@
             this.listBox = new System.Windows.Forms.ListBox();
             this.groupAlumnos = new System.Windows.Forms.GroupBox();
             this.groupCalificados = new System.Windows.Forms.GroupBox();
+            this.listBoxCalificados = new System.Windows.Forms.ListBox();
             this.groupAlumnos.SuspendLayout();
+            this.groupCalificados.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -56,6 +58,7 @@
             this.btnCalificar.TabIndex = 1;
             this.btnCalificar.Text = "Calificar";
             this.btnCalificar.UseVisualStyleBackColor = true;
+            this.btnCalificar.Click += new System.EventHandler(this.BtnCalificar_Click);
             // 
             // btnModificar
             // 
@@ -65,6 +68,7 @@
             this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // comboBox
             // 
@@ -100,12 +104,21 @@
             // 
             // groupCalificados
             // 
+            this.groupCalificados.Controls.Add(this.listBoxCalificados);
             this.groupCalificados.Location = new System.Drawing.Point(12, 293);
             this.groupCalificados.Name = "groupCalificados";
             this.groupCalificados.Size = new System.Drawing.Size(385, 186);
             this.groupCalificados.TabIndex = 6;
             this.groupCalificados.TabStop = false;
             this.groupCalificados.Text = "Alumnos Calificados";
+            // 
+            // listBoxCalificados
+            // 
+            this.listBoxCalificados.FormattingEnabled = true;
+            this.listBoxCalificados.Location = new System.Drawing.Point(21, 19);
+            this.listBoxCalificados.Name = "listBoxCalificados";
+            this.listBoxCalificados.Size = new System.Drawing.Size(345, 160);
+            this.listBoxCalificados.TabIndex = 5;
             // 
             // FrmCatedra
             // 
@@ -118,6 +131,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCatedra";
             this.groupAlumnos.ResumeLayout(false);
+            this.groupCalificados.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -131,5 +145,6 @@
         private System.Windows.Forms.ListBox listBox;
         private System.Windows.Forms.GroupBox groupAlumnos;
         private System.Windows.Forms.GroupBox groupCalificados;
+        private System.Windows.Forms.ListBox listBoxCalificados;
     }
 }

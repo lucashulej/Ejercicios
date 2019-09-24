@@ -153,12 +153,12 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblMensaje;
-        private System.Windows.Forms.TextBox txtBoxNombre;
-        private System.Windows.Forms.TextBox txtBoxApellido;
-        private System.Windows.Forms.TextBox txtBoxLegajo;
         private System.Windows.Forms.Label lblExamen;
-        private System.Windows.Forms.ComboBox comboBoxExamen;
-        private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.TextBox txtBoxNombre;
+        protected System.Windows.Forms.TextBox txtBoxApellido;
+        protected System.Windows.Forms.TextBox txtBoxLegajo;
+        protected System.Windows.Forms.ComboBox comboBoxExamen;
+        protected System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.Button btnAceptar;
     }
 }

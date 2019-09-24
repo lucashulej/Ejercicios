@@ -96,5 +96,9 @@ namespace Clase_09.Entidades
             return -1 * Alumno.OrdenarPorApellidoAsc(a, b);
         }
 
+        public override string ToString()
+        {   
+            return Alumno.Mostrar(this); ;
+        }
     }
 }
