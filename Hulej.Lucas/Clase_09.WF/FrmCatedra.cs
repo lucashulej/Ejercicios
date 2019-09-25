@@ -47,7 +47,7 @@ namespace Clase_09.WF
                 if (existeLegajo == false)
                 {
                     catedra.Alumnos.Add(alumno);
-                    printSortedList();
+                    this.ActualizarListadoAlumnos();
                 }
                 else
                 {
@@ -60,10 +60,10 @@ namespace Clase_09.WF
 
         private void ComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            printSortedList();
+            this.ActualizarListadoAlumnos();
         }
 
-        private void printSortedList()
+        private void ActualizarListadoAlumnos()
         {
             switch (this.comboBox.SelectedItem)
             {
@@ -94,7 +94,7 @@ namespace Clase_09.WF
             this.listBox.Items.Clear();
             foreach (Alumno auxiliar in catedra.Alumnos)
             {
-                this.listBox.Items.Add(auxiliar.ToString()); //
+                this.listBox.Items.Add(auxiliar.ToString()); 
             }
         }
 
@@ -105,16 +105,25 @@ namespace Clase_09.WF
                 if(this.listBox.SelectedIndex >= 0)
                 {
                     FrmAlumnoCalificado frmCalificado = new FrmAlumnoCalificado();
+                    Alumno auxiliar = this.catedra.Alumnos[this.listBox.SelectedIndex];
+                    frmCalificado.txtBoxNombre.Text = auxiliar.Nombre;
+                    frmCalificado.txtBoxApellido.Text = auxiliar.Apellido;
+                    frmCalificado.txtBoxLegajo.Text = auxiliar.Legajo.ToString();
+                    frmCalificado.comboBoxExamen.SelectedItem = auxiliar.Examen;
                     frmCalificado.ShowDialog();
 
-                    //Alumno auxiliar = this.catedra.Alumnos[this.listBox.SelectedIndex];
+                    if(frmCalificado.DialogResult == DialogResult.OK)
+                    {
+                       //SE SACA DE UNA LISTA DEL Y SE PONE EN LA OTRA
+                       this.catedra.Alumnos.Remove(auxiliar);
+                       this.listaAlumnosCalificados.Add(frmCalificado.AlumnoCalificado);
 
-                    //this.catedra.Alumnos.Remove(auxiliar);
-                    //this.listaAlumnosCalificados.Add(auxiliar);
+                        //LIMPIA E IMPRIME LA LISTA DE ALUMNOS
+                        this.ActualizarListadoAlumnos();
 
-                    //printSortedList(); //BORRA LA LISTBOX Y LA VUELVE A IMPRIMIR
-
-                    //this.listBoxCalificados.Items.Add(auxiliar.ToString()); //
+                        //SE AGREGA EL ALUMNO CALIFICADO
+                        this.listBoxCalificados.Items.Add(frmCalificado.AlumnoCalificado.ToString());
+                    }
                 }
                 else
                     MessageBox.Show("Seleccione un alumno");
@@ -131,38 +140,20 @@ namespace Clase_09.WF
                 if (this.listBox.SelectedIndex >= 0)
                 {
                     FrmAlumno frmAlumno = new FrmAlumno();
-                    Alumno alumno;
-                    bool existeLegajo = false;
-                    int index = 0;
+                    Alumno auxiliar = this.catedra.Alumnos[this.listBox.SelectedIndex];
 
-                    index = this.listBox.SelectedIndex;
+                    frmAlumno.txtBoxNombre.Text = auxiliar.Nombre;
+                    frmAlumno.txtBoxApellido.Text = auxiliar.Apellido;
+                    frmAlumno.txtBoxLegajo.Text = auxiliar.Legajo.ToString();
+                    frmAlumno.comboBoxExamen.SelectedItem = auxiliar.Examen;
+                    frmAlumno.txtBoxLegajo.Enabled = false;
+
                     frmAlumno.ShowDialog();
 
                     if (frmAlumno.DialogResult == DialogResult.OK)
                     {
-                        alumno = frmAlumno.GetAlumno;
-                        foreach (Alumno auxiliar in catedra.Alumnos)
-                        {
-                            if (auxiliar.Legajo == alumno.Legajo)
-                            {
-                                if (auxiliar.Legajo == catedra.Alumnos[index].Legajo)
-                                    continue;
-
-                                existeLegajo = true;
-                                break;
-                            }
-                        }
-
-                        if (existeLegajo == false)
-                        {
-                            catedra.Alumnos.RemoveAt(index);
-                            catedra.Alumnos.Add(alumno);
-                            printSortedList();
-                        }
-                        else
-                        {
-                            MessageBox.Show("El legajo no es valido");
-                        }
+                        this.catedra.Alumnos[this.listBox.SelectedIndex] = frmAlumno.GetAlumno;
+                        this.ActualizarListadoAlumnos();
                     }
                 }
                 else

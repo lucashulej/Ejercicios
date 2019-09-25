@@ -108,7 +108,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(12, 228);
+            this.btnAceptar.Location = new System.Drawing.Point(12, 229);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(83, 27);
             this.btnAceptar.TabIndex = 8;
@@ -118,7 +118,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(167, 228);
+            this.btnCancelar.Location = new System.Drawing.Point(168, 229);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(83, 27);
             this.btnCancelar.TabIndex = 9;
@@ -130,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 267);
+            this.ClientSize = new System.Drawing.Size(263, 278);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.comboBoxExamen);
@@ -154,11 +154,11 @@
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Label lblExamen;
-        protected System.Windows.Forms.TextBox txtBoxNombre;
-        protected System.Windows.Forms.TextBox txtBoxApellido;
-        protected System.Windows.Forms.TextBox txtBoxLegajo;
-        protected System.Windows.Forms.ComboBox comboBoxExamen;
         protected System.Windows.Forms.Button btnCancelar;
         protected System.Windows.Forms.Button btnAceptar;
+        protected internal System.Windows.Forms.TextBox txtBoxNombre;
+        protected internal System.Windows.Forms.TextBox txtBoxApellido;
+        protected internal System.Windows.Forms.TextBox txtBoxLegajo;
+        protected internal System.Windows.Forms.ComboBox comboBoxExamen;
     }
 }

@@ -13,11 +13,26 @@ namespace Clase_09.WF
 {
     public partial class FrmAlumnoCalificado : FrmAlumno
     {
+        public AlumnoCalificado alumnoCalificado;
+        
+        public AlumnoCalificado AlumnoCalificado
+        {
+            get
+            {
+                return this.alumnoCalificado;
+            }
+        }
+
         public FrmAlumnoCalificado()
         {
             InitializeComponent();
-            Alumno auxiliar = this.GetAlumno;
-            this.txtBoxNombre.Text = auxiliar.Nombre;
+        }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            this.alumnoCalificado = new AlumnoCalificado(this.txtBoxNombre.Text, this.txtBoxApellido.Text, int.Parse(this.txtBoxLegajo.Text), (ETipoExamen)this.comboBoxExamen.SelectedItem, int.Parse(this.txtBoxNota.Text));
+            this.DialogResult = DialogResult.OK;
+            MessageBox.Show("ACA HAY ALGO RARO");
         }
     }
 }

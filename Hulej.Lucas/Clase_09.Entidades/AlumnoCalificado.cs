@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_09.Entidades
 {
-    class AlumnoCalificado : Alumno
+    public class AlumnoCalificado : Alumno
     {
         protected double nota;
 
@@ -31,6 +31,12 @@ namespace Clase_09.Entidades
         public string Mostrar()
         {
             return Alumno.Mostrar(this) + " " + this.nota;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+
         }
     }
 }
