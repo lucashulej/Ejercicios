@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Central.Entidades
 {
-    abstract public class Llamada
+    public abstract class Llamada
     {
         protected float _duracion;
         protected string _nroDestino;
@@ -64,7 +64,11 @@ namespace Central.Entidades
             bool retorno = false;
             if (object.Equals(uno, null) == false && object.Equals(dos, null) == false)
             {
-
+                if (Local.Equals(uno, dos) || Provincial.Equals(uno, dos))
+                {
+                    if (uno.Duracion == dos.Duracion && uno.NroDestino == dos.NroDestino)
+                        retorno = true;
+                }
             }
             return retorno;
         }
@@ -76,11 +80,7 @@ namespace Central.Entidades
 
         public int OrdenarPorDuracion(Llamada uno, Llamada dos)
         {
-            return 1;
+            return string.Compare(uno.Duracion.ToString(), dos.Duracion.ToString());
         }
-
-
-
-
     }
 }

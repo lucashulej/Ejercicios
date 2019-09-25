@@ -75,6 +75,5 @@ namespace Central.Entidades
  
         #endregion
 
-
     }
 }
