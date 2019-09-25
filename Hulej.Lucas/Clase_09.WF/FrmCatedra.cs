@@ -14,7 +14,7 @@ namespace Clase_09.WF
     public partial class FrmCatedra : Form
     {
         private Catedra catedra = new Catedra();
-        public List<Alumno> listaAlumnosCalificados = new List<Alumno>();
+        public List<AlumnoCalificado> listaAlumnosCalificados = new List<AlumnoCalificado>();
 
         public FrmCatedra()
         {
@@ -32,6 +32,7 @@ namespace Clase_09.WF
             Alumno alumno;
             bool existeLegajo = false;
             frmAlumno.ShowDialog();
+
             if (frmAlumno.DialogResult == DialogResult.OK)
             {
                 alumno = frmAlumno.GetAlumno;
@@ -53,8 +54,8 @@ namespace Clase_09.WF
                 {
                     MessageBox.Show("El legajo no es valido");
                 }
-
             }
+          
 
         }
 
@@ -114,15 +115,11 @@ namespace Clase_09.WF
 
                     if(frmCalificado.DialogResult == DialogResult.OK)
                     {
-                       //SE SACA DE UNA LISTA DEL Y SE PONE EN LA OTRA
-                       this.catedra.Alumnos.Remove(auxiliar);
-                       this.listaAlumnosCalificados.Add(frmCalificado.AlumnoCalificado);
+                        //SE SACA DE UNA LISTA DEL Y SE PONE EN LA OTRA
+                        this.catedra.Alumnos.Remove(auxiliar);
+                        this.listaAlumnosCalificados.Add(frmCalificado.AlumnoCalificado);
 
-                        //LIMPIA E IMPRIME LA LISTA DE ALUMNOS
-                        this.ActualizarListadoAlumnos();
-
-                        //SE AGREGA EL ALUMNO CALIFICADO
-                        this.listBoxCalificados.Items.Add(frmCalificado.AlumnoCalificado.ToString());
+                        this.ActualizarListadoAlumnosCalificados();
                     }
                 }
                 else
@@ -163,6 +160,18 @@ namespace Clase_09.WF
             else
                 MessageBox.Show("No hay alumnos ingresados");
         }
+
+        private void ActualizarListadoAlumnosCalificados()
+        {
+            //LIMPIA E IMPRIME LA LISTA DE ALUMNOS
+            this.ActualizarListadoAlumnos();
+
+            //LIMPIA E IMPRIME LA LISTA DE ALUMNOS CALIFICADOS
+            this.listBoxCalificados.Items.Clear();
+            foreach (AlumnoCalificado auxiliar in listaAlumnosCalificados)
+                this.listBoxCalificados.Items.Add(auxiliar.ToString());
+        }
     }
-      
 }
+
+

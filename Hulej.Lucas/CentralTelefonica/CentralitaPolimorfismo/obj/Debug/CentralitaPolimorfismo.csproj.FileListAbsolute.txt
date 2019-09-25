@@ -1,0 +1,7 @@
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe.config
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.pdb
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csprojAssemblyReference.cache
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csproj.CoreCompileInputs.cache
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.exe
+D:\VisualStudio\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.pdb

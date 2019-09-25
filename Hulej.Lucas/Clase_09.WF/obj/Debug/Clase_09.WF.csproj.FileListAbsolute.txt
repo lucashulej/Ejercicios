@@ -27,3 +27,6 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmCatedra.resources
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmAlumno.resources
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmAlumnoCalificado.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmAlumno.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmAlumnoCalificado.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_09.WF\obj\Debug\Clase_09.WF.FrmCatedra.resources

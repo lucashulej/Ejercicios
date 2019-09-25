@@ -48,7 +48,7 @@ namespace Clase_09.WF
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.DialogResult = DialogResult.Cancel;
         }
 
         private bool isValidName(string auxiliar)
