@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Central.Entidades
 {
-    class Provincial : Llamada
+    public class Provincial : Llamada
     {
         protected Franja _franjaHoraria;
 

@@ -66,7 +66,7 @@ namespace Central.Entidades
             {
                 if (Local.Equals(uno, dos) || Provincial.Equals(uno, dos))
                 {
-                    if (uno.Duracion == dos.Duracion && uno.NroDestino == dos.NroDestino)
+                    if (uno._nroOrginen == dos._nroOrginen && uno._nroDestino == dos._nroDestino)
                         retorno = true;
                 }
             }

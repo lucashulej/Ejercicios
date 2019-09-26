@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Central.Entidades
 {
-    class Centralita
+    public class Centralita
     {
         private List<Llamada> _listaDeLlamadas = new List<Llamada>();
         protected string _razonSocial;
@@ -141,8 +141,11 @@ namespace Central.Entidades
 
         public void OrdenarLlamadas()
         {
-            Llamada auxiliar = null;
-            this._listaDeLlamadas.Sort(auxiliar.OrdenarPorDuracion);
+            Llamada auxiliar = this._listaDeLlamadas.First();
+            if(Object.Equals(auxiliar,null) == false)
+            {
+                this._listaDeLlamadas.Sort(auxiliar.OrdenarPorDuracion);
+            }
         }
 
         public override string ToString()
