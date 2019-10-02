@@ -4,3 +4,8 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidade
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.dll
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.pdb
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\obj\Debug\Central.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\bin\Debug\Central.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.Entidades\bin\Debug\Central.Entidades.pdb

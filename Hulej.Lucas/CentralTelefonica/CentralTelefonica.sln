@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralitaPolimorfismo\CentralitaPolimorfismo.csproj", "{41A37B81-29A2-4166-B5FA-34AC70FB9134}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central.Entidades", "Central.Entidades\Central.Entidades.csproj", "{2EF68C1A-512F-42A1-A6CE-62C26B53FECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central.WF", "Central.WF\Central.WF.csproj", "{A2717287-4C06-4F11-BA95-2BF4CE4ADFFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2EF68C1A-512F-42A1-A6CE-62C26B53FECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EF68C1A-512F-42A1-A6CE-62C26B53FECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EF68C1A-512F-42A1-A6CE-62C26B53FECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2717287-4C06-4F11-BA95-2BF4CE4ADFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2717287-4C06-4F11-BA95-2BF4CE4ADFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2717287-4C06-4F11-BA95-2BF4CE4ADFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2717287-4C06-4F11-BA95-2BF4CE4ADFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

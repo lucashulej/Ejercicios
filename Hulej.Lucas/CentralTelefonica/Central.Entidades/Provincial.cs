@@ -62,7 +62,7 @@ namespace Central.Entidades
             StringBuilder palabra = new StringBuilder();
             palabra.Append(base.Mostrar());
             palabra.Append(" ");
-            palabra.Append(this._franjaHoraria);
+            palabra.Append("Franja Horaria: " + this._franjaHoraria);
             palabra.Append(" ");
             palabra.Append(this.CalcularCosto());
             return palabra.ToString();

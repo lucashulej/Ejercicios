@@ -51,7 +51,7 @@ namespace Central.Entidades
             StringBuilder palabra = new StringBuilder();
             palabra.Append(base.Mostrar());
             palabra.Append(" ");
-            palabra.Append(this._costo);
+            palabra.Append("Costo: " + this._costo);
             return palabra.ToString();
         }
 

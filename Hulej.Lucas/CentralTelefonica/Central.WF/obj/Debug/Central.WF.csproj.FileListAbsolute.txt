@@ -1,0 +1,15 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmCentralita.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmLlamada.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.Properties.Resources.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.GenerateResource.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmLocal.resources

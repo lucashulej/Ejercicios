@@ -71,39 +71,37 @@ namespace Central.Entidades
 
         private float CalcularGanancia(TipoLLamada tipo)
         {
-            Local localAux = null;
-            Provincial provAux = null;
-            float ganancia = 0;
-            switch(tipo)
+            float gananciaLocal = 0;
+            float gananciaProvincial = 0;
+            float retorno = 0;
+            foreach (Llamada auxiliar in _listaDeLlamadas)
+            {
+                if(auxiliar is Local)
+                {
+                    gananciaLocal = gananciaLocal + auxiliar.CostoLlamada;
+                }
+                else
+                {
+                    gananciaProvincial = gananciaProvincial + auxiliar.CostoLlamada;
+                }
+            }
+
+            switch (tipo)
             {
                 case TipoLLamada.Local:
-                    foreach(Llamada auxiliar in _listaDeLlamadas)
-                    {
-                        if(localAux.Equals(auxiliar))
-                        {
-                            ganancia = ganancia + auxiliar.CostoLlamada;
-                        }
-                    }
+                    retorno = gananciaLocal;
                     break;
 
                 case TipoLLamada.Provincial:
-                    foreach (Llamada auxiliar in _listaDeLlamadas)
-                    {
-                        if (provAux.Equals(auxiliar))
-                        {
-                            ganancia = ganancia + auxiliar.CostoLlamada;
-                        }
-                    }
+                    retorno = GananciaPorProvincial;
                     break;
 
                 case TipoLLamada.Todas:
-                    foreach (Llamada auxiliar in _listaDeLlamadas)
-                    {
-                        ganancia = ganancia + auxiliar.CostoLlamada;
-                    }
+                    retorno = gananciaLocal + gananciaProvincial;
                     break;
             }
-            return ganancia;
+
+            return retorno;
         }
 
         public static bool operator ==(Centralita central, Llamada nuevaLlamada)
@@ -133,19 +131,14 @@ namespace Central.Entidades
             }
             else
             {
-                Console.WriteLine("ERROR");
+                //Console.WriteLine("ERROR");
             }
             return central;
-
         }
 
         public void OrdenarLlamadas()
         {
-            Llamada auxiliar = this._listaDeLlamadas.First();
-            if(Object.Equals(auxiliar,null) == false)
-            {
-                this._listaDeLlamadas.Sort(auxiliar.OrdenarPorDuracion);
-            }
+            this._listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
         }
 
         public override string ToString()

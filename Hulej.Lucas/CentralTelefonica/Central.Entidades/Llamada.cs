@@ -51,11 +51,11 @@ namespace Central.Entidades
         protected virtual string Mostrar()
         {
             StringBuilder palabra = new StringBuilder();
-            palabra.Append(this._nroOrginen);
+            palabra.Append("Origen: " + this._nroOrginen);
             palabra.Append(" ");
-            palabra.Append(this._nroDestino);
+            palabra.Append("Destino: " + this._nroDestino);
             palabra.Append(" ");
-            palabra.Append(this._duracion);
+            palabra.Append("Duracion: " + this._duracion);
             return palabra.ToString();
         }
 
@@ -78,7 +78,7 @@ namespace Central.Entidades
             return !(uno==dos);
         }
 
-        public int OrdenarPorDuracion(Llamada uno, Llamada dos)
+        public static int OrdenarPorDuracion(Llamada uno, Llamada dos)
         {
             return string.Compare(uno.Duracion.ToString(), dos.Duracion.ToString());
         }

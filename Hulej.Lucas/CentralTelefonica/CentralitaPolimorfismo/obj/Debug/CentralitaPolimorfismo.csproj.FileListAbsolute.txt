@@ -15,3 +15,13 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimo
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csproj.CopyComplete
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\CentralitaPolimorfismo.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\Central.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\bin\Debug\Central.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\CentralitaPolimorfismo\obj\Debug\CentralitaPolimorfismo.pdb
