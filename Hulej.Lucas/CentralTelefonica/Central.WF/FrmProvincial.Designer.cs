@@ -1,6 +1,6 @@
 ﻿namespace Central.WF
 {
-    partial class FrmLocal
+    partial class FrmProvincial
     {
         /// <summary>
         /// Required designer variable.
@@ -28,48 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblCosto = new System.Windows.Forms.Label();
-            this.txtBoxCosto = new System.Windows.Forms.TextBox();
+            this.lblFranjaHoraria = new System.Windows.Forms.Label();
+            this.cmbBoxFranjaHoraria = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(12, 197);
-            this.btnAceptar.TabIndex = 10;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
-            // lblCosto
+            // lblFranjaHoraria
             // 
-            this.lblCosto.AutoSize = true;
-            this.lblCosto.Location = new System.Drawing.Point(6, 144);
-            this.lblCosto.Name = "lblCosto";
-            this.lblCosto.Size = new System.Drawing.Size(34, 13);
-            this.lblCosto.TabIndex = 8;
-            this.lblCosto.Text = "Costo";
+            this.lblFranjaHoraria.AutoSize = true;
+            this.lblFranjaHoraria.Location = new System.Drawing.Point(2, 146);
+            this.lblFranjaHoraria.Name = "lblFranjaHoraria";
+            this.lblFranjaHoraria.Size = new System.Drawing.Size(73, 13);
+            this.lblFranjaHoraria.TabIndex = 8;
+            this.lblFranjaHoraria.Text = "Franja Horaria";
             // 
-            // txtBoxCosto
+            // cmbBoxFranjaHoraria
             // 
-            this.txtBoxCosto.Location = new System.Drawing.Point(6, 160);
-            this.txtBoxCosto.Name = "txtBoxCosto";
-            this.txtBoxCosto.Size = new System.Drawing.Size(161, 20);
-            this.txtBoxCosto.TabIndex = 9;
+            this.cmbBoxFranjaHoraria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbBoxFranjaHoraria.FormattingEnabled = true;
+            this.cmbBoxFranjaHoraria.Location = new System.Drawing.Point(5, 162);
+            this.cmbBoxFranjaHoraria.Name = "cmbBoxFranjaHoraria";
+            this.cmbBoxFranjaHoraria.Size = new System.Drawing.Size(167, 21);
+            this.cmbBoxFranjaHoraria.TabIndex = 9;
             // 
-            // FrmLocal
+            // FrmProvincial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(179, 230);
-            this.Controls.Add(this.txtBoxCosto);
-            this.Controls.Add(this.lblCosto);
+            this.ClientSize = new System.Drawing.Size(180, 231);
+            this.Controls.Add(this.cmbBoxFranjaHoraria);
+            this.Controls.Add(this.lblFranjaHoraria);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmLocal";
-            this.Text = "FrmLocal";
+            this.Name = "FrmProvincial";
+            this.Text = "FrmProvincial";
             this.Controls.SetChildIndex(this.lblNroOrigen, 0);
             this.Controls.SetChildIndex(this.lblDestino, 0);
             this.Controls.SetChildIndex(this.lblDuracion, 0);
@@ -78,8 +77,8 @@
             this.Controls.SetChildIndex(this.txtBoxDuracion, 0);
             this.Controls.SetChildIndex(this.btnAceptar, 0);
             this.Controls.SetChildIndex(this.btnCancelar, 0);
-            this.Controls.SetChildIndex(this.lblCosto, 0);
-            this.Controls.SetChildIndex(this.txtBoxCosto, 0);
+            this.Controls.SetChildIndex(this.lblFranjaHoraria, 0);
+            this.Controls.SetChildIndex(this.cmbBoxFranjaHoraria, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,7 +86,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblCosto;
-        private System.Windows.Forms.TextBox txtBoxCosto;
+        private System.Windows.Forms.Label lblFranjaHoraria;
+        private System.Windows.Forms.ComboBox cmbBoxFranjaHoraria;
     }
 }

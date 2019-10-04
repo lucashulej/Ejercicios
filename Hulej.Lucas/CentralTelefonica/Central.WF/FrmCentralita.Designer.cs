@@ -91,6 +91,8 @@
             this.Controls.Add(this.btnProvincial);
             this.Controls.Add(this.btnLocal);
             this.Controls.Add(this.listBox);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmCentralita";
             this.Text = "Centralita";
             this.ResumeLayout(false);

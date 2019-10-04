@@ -21,6 +21,7 @@ namespace Central.WF
             InitializeComponent();
             this.comboBox.Items.Add("Ordenar x duracion");
             this.comboBox.SelectedItem = "Ordenar x duracion";
+            this.IsMdiContainer = true;
         }
 
         private void btnLocal_Click(object sender, EventArgs e)
@@ -42,7 +43,19 @@ namespace Central.WF
 
         private void btnProvincial_Click(object sender, EventArgs e)
         {
-            
+            FrmProvincial frmProvincial = new FrmProvincial();
+            frmProvincial.ShowDialog();
+            int lastSize = 0;
+            if (frmProvincial.DialogResult == DialogResult.OK)
+            {
+                auxiliar = frmProvincial.GetLlamada;
+                lastSize = this.central.Llamadas.Count;
+                this.central = this.central + auxiliar;
+                if (this.central.Llamadas.Count > lastSize)
+                {
+                    this.listBox.Items.Add(frmProvincial.GetLlamada.ToString());
+                }
+            }
         }
 
         private void printSortedList()

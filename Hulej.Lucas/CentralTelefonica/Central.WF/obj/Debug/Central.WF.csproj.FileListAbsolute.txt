@@ -13,3 +13,19 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Cen
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.pdb
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmLocal.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.exe.config
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.WF.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\bin\Debug\Central.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmCentralita.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmLlamada.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmLocal.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.FrmProvincial.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.Properties.Resources.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\CentralTelefonica\Central.WF\obj\Debug\Central.WF.pdb

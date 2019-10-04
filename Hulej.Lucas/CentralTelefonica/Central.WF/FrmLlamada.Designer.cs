@@ -119,6 +119,8 @@
             this.Controls.Add(this.lblDuracion);
             this.Controls.Add(this.lblDestino);
             this.Controls.Add(this.lblNroOrigen);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmLlamada";
             this.Text = "Llamada";
             this.ResumeLayout(false);

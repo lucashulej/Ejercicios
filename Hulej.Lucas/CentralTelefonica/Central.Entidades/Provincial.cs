@@ -64,7 +64,7 @@ namespace Central.Entidades
             palabra.Append(" ");
             palabra.Append("Franja Horaria: " + this._franjaHoraria);
             palabra.Append(" ");
-            palabra.Append(this.CalcularCosto());
+            palabra.Append("Costo: " + this.CalcularCosto());
             return palabra.ToString();
         }
 
