@@ -1,0 +1,10 @@
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\bin\Debug\Archivos.WF.exe.config
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\bin\Debug\Archivos.WF.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\bin\Debug\Archivos.WF.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.Form1.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.Properties.Resources.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.exe
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Archivos.WF\obj\Debug\Archivos.WF.pdb
