@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_17.Entidades
 {
-    public class Avion : Vehiculo, IAFIP
+    public class Avion : Vehiculo, IAFIP, IARBA
     {
         protected double _velocidadMaxima;
 
@@ -24,6 +24,11 @@ namespace Clase_17.Entidades
         public double CalcularImpuesto()
         {
             return this._precio * 0.33;
+        }
+
+        public double CobrarImpuesto()
+        {
+            return this._precio * 0.27;
         }
     }
 }

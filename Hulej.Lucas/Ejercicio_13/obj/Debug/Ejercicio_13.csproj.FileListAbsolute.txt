@@ -10,3 +10,4 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_13\bin\Debug\Ejercicio_13.pdb
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_13\obj\Debug\Ejercicio_13.exe
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Ejercicio_13\obj\Debug\Ejercicio_13.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_17.Entidades
 {
-    public class Deportivo : Auto, IAFIP
+    public class Deportivo : Auto, IAFIP, IARBA
     {
         protected int caballosFuerza;
 
@@ -23,14 +23,17 @@ namespace Clase_17.Entidades
 
         public override void MostrarPrecio()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Precio Deportivo: " + this._precio.ToString());
         }
 
-        public double CalcularImpuesto()
+        double IAFIP.CalcularImpuesto()
         {
-            return this._precio * 0.33;
+            return this._precio * 0.28;
         }
 
-
+        double IARBA.CobrarImpuesto()
+        {
+            return this._precio * 0.23;
+        }
     }
 }

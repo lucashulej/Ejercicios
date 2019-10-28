@@ -10,7 +10,6 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_08.Entidades\obj\Debug\netstandard2.
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\bin\Debug\netstandard2.0\Clase_08.Entidades.deps.json
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\bin\Debug\netstandard2.0\Clase_08.Entidades.dll
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\bin\Debug\netstandard2.0\Clase_08.Entidades.pdb
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\obj\Debug\netstandard2.0\Clase_08.Entidades.csprojAssemblyReference.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\obj\Debug\netstandard2.0\Clase_08.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\obj\Debug\netstandard2.0\Clase_08.Entidades.AssemblyInfoInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_08.Entidades\obj\Debug\netstandard2.0\Clase_08.Entidades.AssemblyInfo.cs

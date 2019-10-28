@@ -5,7 +5,6 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entid
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entidades.pdb
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\bin\Debug\Clase02.Entidades.dll
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\bin\Debug\Clase02.Entidades.pdb
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csprojAssemblyReference.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entidades.dll
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_02.Entidades\obj\Debug\Clase02.Entidades.pdb

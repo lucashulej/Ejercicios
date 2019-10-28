@@ -43,11 +43,12 @@
   <ItemGroup>
     <Compile Include="Auto.cs" />
     <Compile Include="Avion.cs" />
-    <Compile Include="Carretera.cs" />
+    <Compile Include="Carreta.cs" />
     <Compile Include="Comercial.cs" />
     <Compile Include="Deportivo.cs" />
     <Compile Include="Familiar.cs" />
     <Compile Include="Gestion.cs" />
+    <Compile Include="IARBA.cs" />
     <Compile Include="Privado.cs" />
     <Compile Include="Vehiculo.cs" />
     <Compile Include="IAFIP.cs" />

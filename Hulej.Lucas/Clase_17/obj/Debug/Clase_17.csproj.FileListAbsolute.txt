@@ -1,0 +1,2 @@
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_17\obj\Debug\Clase_17.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_17\obj\Debug\Clase_17.csproj.CoreCompileInputs.cache
