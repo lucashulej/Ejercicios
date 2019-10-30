@@ -16,23 +16,21 @@ namespace Clase_17
             Comercial com1 = new Comercial(240, 800, 300);
             Privado priv1 = new Privado(7000, 900, 10000);
 
-
-
-            carr1.MostrarPecio();
+            carr1.MostrarPrecio();
             Console.WriteLine("Impuestos ARBA: " + Gestion.MostrarImpuestoProvincial((IARBA)carr1).ToString("C2"));
             Console.WriteLine();
 
-            dep1.MostrarPecio();
+            dep1.MostrarPrecio();
             Console.WriteLine("Impuestos AFIP: " + Gestion.MostrarImpuestoNacional((IAFIP)dep1).ToString("C2"));
             Console.WriteLine("Impuestos ARBA: " + Gestion.MostrarImpuestoProvincial((IARBA)dep1).ToString("C2"));
             Console.WriteLine();
 
-            com1.MostrarPecio();
+            com1.MostrarPrecio();
             Console.WriteLine("Impuestos AFIP: " + Gestion.MostrarImpuestoNacional((IAFIP)com1).ToString("C2"));
             Console.WriteLine("Impuestos ARBA: " + Gestion.MostrarImpuestoProvincial((IARBA)com1).ToString("C2"));
             Console.WriteLine();
 
-            priv1.MostrarPecio();
+            priv1.MostrarPrecio();
             Console.WriteLine("Impuestos AFIP:" + Gestion.MostrarImpuestoNacional((IAFIP)priv1).ToString("C2"));
             Console.WriteLine("Impuestos ARBA: " + Gestion.MostrarImpuestoProvincial((IARBA)priv1).ToString("C2"));
             Console.WriteLine();

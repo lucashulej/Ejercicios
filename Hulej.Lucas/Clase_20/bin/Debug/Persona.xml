@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona>
+    <nombre>lukitas</nombre>
+    <apellido>hulej</apellido>
+    <Edad>20</Edad>
+    <Apodo>
+      <string>apodo1</string>
+    </Apodo>
+  </Persona>
+  <Persona>
+    <nombre>adriansiyo</nombre>
+    <apellido>brizuela</apellido>
+    <Edad>28</Edad>
+    <Apodo>
+      <string>apodo2</string>
+    </Apodo>
+  </Persona>
+  <Persona xsi:type="Empleado">
+    <nombre>juan</nombre>
+    <apellido>perez</apellido>
+    <Edad>23</Edad>
+    <Apodo />
+    <legajo>1</legajo>
+    <sueldo>500</sueldo>
+  </Persona>
+  <Persona xsi:type="Empleado">
+    <nombre>pedro</nombre>
+    <apellido>hernandez</apellido>
+    <Edad>2</Edad>
+    <Apodo />
+    <legajo>33</legajo>
+    <sueldo>560</sueldo>
+  </Persona>
+  <Persona xsi:type="Alumno">
+    <nombre>mario</nombre>
+    <apellido>alberto</apellido>
+    <Edad>55</Edad>
+    <Apodo />
+    <nota>9</nota>
+  </Persona>
+  <Persona xsi:type="Alumno">
+    <nombre>wario</nombre>
+    <apellido>berto</apellido>
+    <Edad>55</Edad>
+    <Apodo />
+    <nota>8</nota>
+  </Persona>
+</ArrayOfPersona>
