@@ -88,15 +88,22 @@ namespace AdminPersonas
             {
                 this.conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
                 this.conexionSql.Open();
+
+                MessageBox.Show("EXITO EN CONEXION CON BASE DE DATOS");
+
                 SqlCommand comandoSql = new SqlCommand();
                 comandoSql.Connection = this.conexionSql;
                 comandoSql.CommandType = CommandType.Text;
                 comandoSql.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad] FROM[personas_bd].[dbo].[personas]";
                 SqlDataReader dataReader = comandoSql.ExecuteReader();
+                Persona aux;
                 while(dataReader.Read())
                 {
-                    MessageBox.Show(dataReader["id"].ToString() + " - " + dataReader["nombre"].ToString());
+                    aux = new Persona(dataReader["nombre"].ToString(), dataReader["apellido"].ToString(), int.Parse(dataReader["id"].ToString()));
+                    this.lista.Add(aux);
+                    //MessageBox.Show(dataReader["id"].ToString() + " - " + dataReader["nombre"].ToString());
                 }
+                MessageBox.Show("Se cargaron todas las personas de la base de datos");
                 this.conexionSql.Close();
             }
             catch(Exception exception)
