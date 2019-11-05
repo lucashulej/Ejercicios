@@ -9,7 +9,6 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersona
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.frmVisorPersona.resources
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.Properties.Resources.resources
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.GenerateResource.cache
-C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CopyComplete
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.pdb

@@ -18,8 +18,10 @@ namespace AdminPersonas
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
-
-        private SqlConnection conexionSql;
+        private SqlConnection baseDeDatos;
+        private SqlCommand comandoSql;
+        private SqlDataReader lectorSql;
+        private DataTable tablaPersonas;
 
         public FrmPrincipal()
         {
@@ -27,6 +29,30 @@ namespace AdminPersonas
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
+            this.tablaPersonas = new DataTable("Personas");
+            //this.cargarDataTable();
+        }
+
+        private void cargarDataTable()
+        {
+            try
+            {
+                this.baseDeDatos = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.baseDeDatos.Open();
+                this.comandoSql = new SqlCommand();
+                this.comandoSql.Connection = this.baseDeDatos;
+                this.comandoSql.CommandType = CommandType.Text;
+                this.comandoSql.CommandText = " SELECT * FROM[personas_bd].[dbo].[personas]";
+                this.lectorSql = comandoSql.ExecuteReader();
+                this.tablaPersonas.Load(lectorSql);
+                this.lectorSql.Close();
+                this.baseDeDatos.Close();
+                MessageBox.Show("Conexion con base de datos establecida");
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -86,25 +112,21 @@ namespace AdminPersonas
         {
             try
             {
-                this.conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
-                this.conexionSql.Open();
+                this.baseDeDatos = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.baseDeDatos.Open();
 
-                MessageBox.Show("EXITO EN CONEXION CON BASE DE DATOS");
-
-                SqlCommand comandoSql = new SqlCommand();
-                comandoSql.Connection = this.conexionSql;
-                comandoSql.CommandType = CommandType.Text;
-                comandoSql.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad] FROM[personas_bd].[dbo].[personas]";
-                SqlDataReader dataReader = comandoSql.ExecuteReader();
+                this.comandoSql = new SqlCommand();
+                this.comandoSql.Connection = this.baseDeDatos;
+                this.comandoSql.CommandType = CommandType.Text;
+                this.comandoSql.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad] FROM[personas_bd].[dbo].[personas]";
+                this.lectorSql = comandoSql.ExecuteReader();
                 Persona aux;
-                while(dataReader.Read())
+                while(this.lectorSql.Read())
                 {
-                    aux = new Persona(dataReader["nombre"].ToString(), dataReader["apellido"].ToString(), int.Parse(dataReader["id"].ToString()));
+                    aux = new Persona(lectorSql["nombre"].ToString(), lectorSql["apellido"].ToString(), int.Parse(lectorSql["edad"].ToString()));
                     this.lista.Add(aux);
-                    //MessageBox.Show(dataReader["id"].ToString() + " - " + dataReader["nombre"].ToString());
                 }
-                MessageBox.Show("Se cargaron todas las personas de la base de datos");
-                this.conexionSql.Close();
+                this.baseDeDatos.Close();
             }
             catch(Exception exception)
             {

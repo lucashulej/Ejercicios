@@ -16,3 +16,8 @@ D:\Lucas Hulej\Ejercicios\Clase_20\Clase_20.Entidades\obj\Debug\Clase_20.Entidad
 D:\Lucas Hulej\Ejercicios\Clase_20\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.csproj.CoreCompileInputs.cache
 D:\Lucas Hulej\Ejercicios\Clase_20\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.dll
 D:\Lucas Hulej\Ejercicios\Clase_20\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.Entidades\bin\Debug\Clase_20.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.Entidades\bin\Debug\Clase_20.Entidades.pdb
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.dll
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.Entidades\obj\Debug\Clase_20.Entidades.pdb

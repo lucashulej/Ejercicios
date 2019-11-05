@@ -14,7 +14,7 @@ namespace Clase_20.Entidades
     {
         public string nombre;
         public string apellido;
-        int edad;
+        public int edad;
         List<string> apodos;
 
         public int Edad
