@@ -29,6 +29,14 @@ namespace AdminPersonas
             InitializeComponent();
         }
 
+        public frmPersona(Persona aux) : this()
+        {
+            this.miPersona = aux;
+            this.txtNombre.Text = aux.nombre;
+            this.txtApellido.Text = aux.apellido;
+            this.txtEdad.Text = aux.edad.ToString();
+        }
+
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
             miPersona = new Persona(this.txtNombre.Text, this.txtApellido.Text, int.Parse(this.txtEdad.Text));

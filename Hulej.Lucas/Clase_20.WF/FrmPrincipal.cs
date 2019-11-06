@@ -30,7 +30,7 @@ namespace AdminPersonas
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
             this.tablaPersonas = new DataTable("Personas");
-            //this.cargarDataTable();
+            this.cargarDataTable();
         }
 
         private void cargarDataTable()
@@ -132,6 +132,17 @@ namespace AdminPersonas
             {
                 MessageBox.Show(exception.Message);
             }
+        }
+
+        private void dataTableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDataTable frmDataTable = new FrmDataTable(this.tablaPersonas);
+            frmDataTable.ShowDialog();
+        }
+
+        private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

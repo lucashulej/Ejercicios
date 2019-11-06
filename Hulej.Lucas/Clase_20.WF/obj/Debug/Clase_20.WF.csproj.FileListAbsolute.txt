@@ -12,3 +12,19 @@ C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CopyComplete
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.exe
 C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.frmPersona.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.FrmPrincipal.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.frmVisorPersona.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.Properties.Resources.resources
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.GenerateResource.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\AdminPersonas.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\AdminPersonas.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\AdminPersonas.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\Clase_20.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\Clase_20.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.FrmDataTable.resources

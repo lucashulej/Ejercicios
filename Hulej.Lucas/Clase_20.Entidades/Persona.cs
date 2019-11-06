@@ -51,7 +51,7 @@ namespace Clase_20.Entidades
 
         public override string ToString()
         {
-            return this.nombre + " " + this.apellido + " " + this.edad + "\n";
+            return this.nombre + " - " + this.apellido + " - " + this.edad + "\n";
         }
 
         public bool Guardar(string path)

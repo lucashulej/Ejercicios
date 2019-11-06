@@ -15,7 +15,7 @@ namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form
     {
-        private List<Persona> listaAux;
+    protected List<Persona> listaAux;
 
         public frmVisorPersona()
         {
@@ -37,7 +37,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        protected virtual void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
@@ -52,34 +52,56 @@ namespace AdminPersonas
                 SqlCommand command = new SqlCommand();
                 command.Connection = conexionSql;
                 command.CommandType = CommandType.Text;
-                command.CommandText = "INSERT INTO personas ([nombre],[apellido],[edad]) \n VALUES('" + frm.Persona.nombre + "','" + frm.Persona.apellido + "'," + Convert.ToInt32(frm.Persona.edad).ToString() + ")";
+                command.CommandText = "INSERT INTO personas ([nombre],[apellido],[edad]) VALUES('" + frm.Persona.nombre + "','" + frm.Persona.apellido + "'," + Convert.ToInt32(frm.Persona.edad).ToString() + ")";
                 command.ExecuteNonQuery();
                 conexionSql.Close();
             }
 
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
+        protected virtual void btnModificar_Click(object sender, EventArgs e)
         {
-            //PARAMETRO EN CONSTRUCTOR APRA MODIFICAR
-            frmPersona frm = new frmPersona();
+            int selectedIndex;
+            Persona auxPersona = this.listaAux[this.lstVisor.SelectedIndex];
+            frmPersona frm = new frmPersona(auxPersona);
             frm.StartPosition = FormStartPosition.CenterScreen;
-            //command.CommandText = "UPDATE personas SET [nombre] = '" + aux.nombre + "', [apellido] = '" + aux.apellido + "', [edad] = " + aux.Edad + " WHERE [id] = " + this.lstVisor.SelectedIndex;
-            //implementar
+            frm.ShowDialog();
+            if(frm.DialogResult == DialogResult.OK)
+            {
+                SqlConnection conexionSql;
+                selectedIndex = this.lstVisor.SelectedIndex;
+                auxPersona = this.listaAux[this.lstVisor.SelectedIndex];
+                conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
+                conexionSql.Open();
+                SqlCommand command = new SqlCommand();
+                command.Connection = conexionSql;
+                command.CommandType = CommandType.Text;
+                command.CommandText = "UPDATE personas SET [nombre] = @nombre, [apellido] = @apellido, [edad] = @edad WHERE nombre = @nombre2 AND [apellido] = @apellido2 AND [edad] = @edad2";
+                command.Parameters.AddWithValue("@nombre", frm.Persona.nombre);
+                command.Parameters.AddWithValue("@apellido", frm.Persona.apellido);
+                command.Parameters.AddWithValue("@edad", frm.Persona.edad);
+                command.Parameters.AddWithValue("@nombre2", auxPersona.nombre);
+                command.Parameters.AddWithValue("@apellido2", auxPersona.apellido);
+                command.Parameters.AddWithValue("@edad2", auxPersona.edad);
+                command.ExecuteNonQuery();
+                this.listaAux[selectedIndex] = frm.Persona;
+                this.cargarListBox();
+            }
+            
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        protected virtual void btnEliminar_Click(object sender, EventArgs e)
         {
-            frmPersona frm = new frmPersona();
+            Persona auxPersona;
             SqlConnection conexionSql;
+            auxPersona = this.listaAux[this.lstVisor.SelectedIndex];
             this.listaAux.RemoveAt(this.lstVisor.SelectedIndex);
-            frm.StartPosition = FormStartPosition.CenterScreen;
             conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
             conexionSql.Open();
             SqlCommand command = new SqlCommand();
             command.Connection = conexionSql;
             command.CommandType = CommandType.Text;
-            command.CommandText = "DELETE FROM personas WHERE [row_number] = " + this.lstVisor.SelectedIndex + 1;
+            command.CommandText = "DELETE FROM personas WHERE [nombre] = '" + auxPersona.nombre + "' AND [apellido] = '" + auxPersona.apellido + "' AND [edad] = " + auxPersona.edad;
             command.ExecuteNonQuery();
             conexionSql.Close();
             this.cargarListBox();
