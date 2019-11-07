@@ -14,6 +14,7 @@ namespace AdminPersonas
     public partial class FrmDataTable : frmVisorPersona
     {
         private DataTable tabla;
+
         public FrmDataTable(DataTable tabla)
         {
             InitializeComponent();
@@ -48,7 +49,7 @@ namespace AdminPersonas
         protected override void btnModificar_Click(object sender, EventArgs e)
         {
             DataRow fila = this.tabla.Rows[this.lstVisor.SelectedIndex];
-            frmPersona frmPersona = new frmPersona(new Persona(fila[1].ToString(), fila[2].ToString(), int.Parse(fila[3].ToString())));
+            frmPersona frmPersona = new frmPersona(new Persona(fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3])));
             frmPersona.ShowDialog();
             if (frmPersona.DialogResult == DialogResult.OK)
             {

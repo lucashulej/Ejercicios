@@ -30,29 +30,6 @@ namespace AdminPersonas
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
             this.tablaPersonas = new DataTable("Personas");
-            this.cargarDataTable();
-        }
-
-        private void cargarDataTable()
-        {
-            try
-            {
-                this.baseDeDatos = new SqlConnection(Properties.Settings.Default.Conexion);
-                this.baseDeDatos.Open();
-                this.comandoSql = new SqlCommand();
-                this.comandoSql.Connection = this.baseDeDatos;
-                this.comandoSql.CommandType = CommandType.Text;
-                this.comandoSql.CommandText = " SELECT * FROM[personas_bd].[dbo].[personas]";
-                this.lectorSql = comandoSql.ExecuteReader();
-                this.tablaPersonas.Load(lectorSql);
-                this.lectorSql.Close();
-                this.baseDeDatos.Close();
-                MessageBox.Show("Conexion con base de datos establecida");
-            }
-            catch(Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -136,8 +113,31 @@ namespace AdminPersonas
 
         private void dataTableToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.cargarDataTable();
             FrmDataTable frmDataTable = new FrmDataTable(this.tablaPersonas);
             frmDataTable.ShowDialog();
+        }
+
+        private void cargarDataTable()
+        {
+            try
+            {
+                this.baseDeDatos = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.baseDeDatos.Open();
+                this.comandoSql = new SqlCommand();
+                this.comandoSql.Connection = this.baseDeDatos;
+                this.comandoSql.CommandType = CommandType.Text;
+                this.comandoSql.CommandText = " SELECT * FROM[personas_bd].[dbo].[personas]";
+                this.lectorSql = comandoSql.ExecuteReader();
+                this.tablaPersonas.Load(lectorSql);
+                this.lectorSql.Close();
+                this.baseDeDatos.Close();
+                MessageBox.Show("Conexion con base de datos establecida");
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)

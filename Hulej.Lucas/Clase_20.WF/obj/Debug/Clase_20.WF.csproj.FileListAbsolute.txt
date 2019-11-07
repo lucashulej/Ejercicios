@@ -28,3 +28,4 @@ D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\Clase_20.Entidades.d
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\bin\Debug\Clase_20.Entidades.pdb
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\Clase_20.WF.csproj.CopyComplete
 D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.FrmDataTable.resources
+C:\Users\Lucas\Desktop\Ejercicios\Hulej.Lucas\Clase_20.WF\obj\Debug\AdminPersonas.FrmDataTable.resources

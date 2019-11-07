@@ -15,7 +15,9 @@ namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form
     {
-    protected List<Persona> listaAux;
+        protected List<Persona> listaAux;
+        protected SqlConnection conexion;
+        protected SqlCommand comando;
 
         public frmVisorPersona()
         {
@@ -46,15 +48,19 @@ namespace AdminPersonas
             {
                 this.listaAux.Add(frm.Persona);
                 this.cargarListBox();
-                SqlConnection conexionSql;
-                conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
-                conexionSql.Open();
-                SqlCommand command = new SqlCommand();
-                command.Connection = conexionSql;
-                command.CommandType = CommandType.Text;
-                command.CommandText = "INSERT INTO personas ([nombre],[apellido],[edad]) VALUES('" + frm.Persona.nombre + "','" + frm.Persona.apellido + "'," + Convert.ToInt32(frm.Persona.edad).ToString() + ")";
-                command.ExecuteNonQuery();
-                conexionSql.Close();
+
+                this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.conexion.Open();
+                this.comando = new SqlCommand();
+                this.comando.Connection = this.conexion;
+                this.comando.CommandType = CommandType.Text;
+
+                this.comando.CommandText = "INSERT INTO personas ([nombre],[apellido],[edad]) VALUES(@nombre,@apellido,@edad)";
+                this.comando.Parameters.AddWithValue("@nombre", frm.Persona.nombre);
+                this.comando.Parameters.AddWithValue("@apellido", frm.Persona.apellido);
+                this.comando.Parameters.AddWithValue("@edad", Convert.ToInt32(frm.Persona.edad));
+                this.comando.ExecuteNonQuery();
+                this.conexion.Close();
             }
 
         }
@@ -68,22 +74,23 @@ namespace AdminPersonas
             frm.ShowDialog();
             if(frm.DialogResult == DialogResult.OK)
             {
-                SqlConnection conexionSql;
                 selectedIndex = this.lstVisor.SelectedIndex;
                 auxPersona = this.listaAux[this.lstVisor.SelectedIndex];
-                conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
-                conexionSql.Open();
-                SqlCommand command = new SqlCommand();
-                command.Connection = conexionSql;
-                command.CommandType = CommandType.Text;
-                command.CommandText = "UPDATE personas SET [nombre] = @nombre, [apellido] = @apellido, [edad] = @edad WHERE nombre = @nombre2 AND [apellido] = @apellido2 AND [edad] = @edad2";
-                command.Parameters.AddWithValue("@nombre", frm.Persona.nombre);
-                command.Parameters.AddWithValue("@apellido", frm.Persona.apellido);
-                command.Parameters.AddWithValue("@edad", frm.Persona.edad);
-                command.Parameters.AddWithValue("@nombre2", auxPersona.nombre);
-                command.Parameters.AddWithValue("@apellido2", auxPersona.apellido);
-                command.Parameters.AddWithValue("@edad2", auxPersona.edad);
-                command.ExecuteNonQuery();
+
+                this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.conexion.Open();
+                this.comando = new SqlCommand();
+                this.comando.Connection = this.conexion;
+                this.comando.CommandType = CommandType.Text;
+
+                this.comando.CommandText = "UPDATE personas SET [nombre] = @nombre, [apellido] = @apellido, [edad] = @edad WHERE nombre = @nombre2 AND [apellido] = @apellido2 AND [edad] = @edad2";
+                this.comando.Parameters.AddWithValue("@nombre", frm.Persona.nombre);
+                this.comando.Parameters.AddWithValue("@apellido", frm.Persona.apellido);
+                this.comando.Parameters.AddWithValue("@edad", frm.Persona.edad);
+                this.comando.Parameters.AddWithValue("@nombre2", auxPersona.nombre);
+                this.comando.Parameters.AddWithValue("@apellido2", auxPersona.apellido);
+                this.comando.Parameters.AddWithValue("@edad2", auxPersona.edad);
+                this.comando.ExecuteNonQuery();
                 this.listaAux[selectedIndex] = frm.Persona;
                 this.cargarListBox();
             }
@@ -93,17 +100,21 @@ namespace AdminPersonas
         protected virtual void btnEliminar_Click(object sender, EventArgs e)
         {
             Persona auxPersona;
-            SqlConnection conexionSql;
             auxPersona = this.listaAux[this.lstVisor.SelectedIndex];
             this.listaAux.RemoveAt(this.lstVisor.SelectedIndex);
-            conexionSql = new SqlConnection(Properties.Settings.Default.Conexion);
-            conexionSql.Open();
-            SqlCommand command = new SqlCommand();
-            command.Connection = conexionSql;
-            command.CommandType = CommandType.Text;
-            command.CommandText = "DELETE FROM personas WHERE [nombre] = '" + auxPersona.nombre + "' AND [apellido] = '" + auxPersona.apellido + "' AND [edad] = " + auxPersona.edad;
-            command.ExecuteNonQuery();
-            conexionSql.Close();
+
+            this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            this.conexion.Open();
+            this.comando = new SqlCommand();
+            this.comando.Connection = this.conexion;
+            this.comando.CommandType = CommandType.Text;
+
+            this.comando.CommandText = "DELETE FROM personas WHERE [nombre] = @nombre AND [apellido] = @apellido AND [edad] = @edad";
+            this.comando.Parameters.AddWithValue("@nombre", auxPersona.nombre);
+            this.comando.Parameters.AddWithValue("@apellido", auxPersona.apellido);
+            this.comando.Parameters.AddWithValue("@edad", auxPersona.edad);
+            this.comando.ExecuteNonQuery();
+            this.conexion.Close();
             this.cargarListBox();
         }
 
