@@ -22,6 +22,7 @@ namespace AdminPersonas
         private SqlCommand comandoSql;
         private SqlDataReader lectorSql;
         private DataTable tablaPersonas;
+        private SqlDataAdapter dataAdapter;
 
         public FrmPrincipal()
         {
@@ -128,6 +129,14 @@ namespace AdminPersonas
                 this.comandoSql.Connection = this.baseDeDatos;
                 this.comandoSql.CommandType = CommandType.Text;
                 this.comandoSql.CommandText = " SELECT * FROM[personas_bd].[dbo].[personas]";
+                this.dataAdapter = new SqlDataAdapter(this.comandoSql);
+                this.dataAdapter.Fill(this.tablaPersonas);
+
+                //AGREGAR
+                this.dataAdapter.InsertCommand = new SqlCommand("INSERT INTO personas VALUES (@p1, @p2, @p3)", this.baseDeDatos);
+                this.dataAdapter.UpdateCommand = new SqlCommand("UPDATE personas SET [nombre] = @p1, [apellido] = @p2,[edad] = @p3 WHERE id = @id", this.baseDeDatos);
+                this.dataAdapter.DeleteCommand = new SqlCommand("DELETE FROM personas WHERE id = @id ", this.baseDeDatos);
+
                 this.lectorSql = comandoSql.ExecuteReader();
                 this.tablaPersonas.Load(lectorSql);
                 this.lectorSql.Close();
@@ -142,6 +151,14 @@ namespace AdminPersonas
 
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            try
+            {
+                this.dataAdapter.Update(this.tablaPersonas);
+            }
+            catch(Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
 
         }
     }

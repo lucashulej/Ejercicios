@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj": {}
+    "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj": {
+    "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
         "projectName": "Clase_08.Entidades",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
