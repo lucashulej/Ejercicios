@@ -90,6 +90,7 @@ namespace AdminPersonas
         {
             try
             {
+                this.lista.Clear();
                 this.baseDeDatos = new SqlConnection(Properties.Settings.Default.Conexion);
                 this.baseDeDatos.Open();
 
@@ -105,6 +106,7 @@ namespace AdminPersonas
                     this.lista.Add(aux);
                 }
                 this.baseDeDatos.Close();
+                MessageBox.Show("Conexion con base de datos establecida");
             }
             catch(Exception exception)
             {
@@ -130,6 +132,7 @@ namespace AdminPersonas
                 this.comandoSql.CommandType = CommandType.Text;
                 this.comandoSql.CommandText = " SELECT * FROM[personas_bd].[dbo].[personas]";
                 this.dataAdapter = new SqlDataAdapter(this.comandoSql);
+                this.tablaPersonas.Clear();
                 this.dataAdapter.Fill(this.tablaPersonas);
 
                 //AGREGAR
@@ -137,11 +140,16 @@ namespace AdminPersonas
                 this.dataAdapter.UpdateCommand = new SqlCommand("UPDATE personas SET [nombre] = @p1, [apellido] = @p2,[edad] = @p3 WHERE id = @id", this.baseDeDatos);
                 this.dataAdapter.DeleteCommand = new SqlCommand("DELETE FROM personas WHERE id = @id ", this.baseDeDatos);
 
-                this.lectorSql = comandoSql.ExecuteReader();
-                this.tablaPersonas.Load(lectorSql);
-                this.lectorSql.Close();
-                this.baseDeDatos.Close();
-                MessageBox.Show("Conexion con base de datos establecida");
+                this.dataAdapter.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                this.dataAdapter.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                this.dataAdapter.InsertCommand.Parameters.Add("@p3", SqlDbType.Int, 10, "edad");
+
+                this.dataAdapter.UpdateCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                this.dataAdapter.UpdateCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                this.dataAdapter.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 10, "edad");
+                this.dataAdapter.UpdateCommand.Parameters.Add("@id", SqlDbType.Int, 10, "id");
+
+                this.dataAdapter.DeleteCommand.Parameters.Add("@id", SqlDbType.Int, 10, "id");
             }
             catch (Exception e)
             {
@@ -154,6 +162,7 @@ namespace AdminPersonas
             try
             {
                 this.dataAdapter.Update(this.tablaPersonas);
+                MessageBox.Show("La base de datos fue actualizada");
             }
             catch(Exception exception)
             {

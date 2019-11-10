@@ -22,15 +22,6 @@ namespace AdminPersonas
             this.actualizarListBox();
         }
 
-        private void actualizarListBox()
-        {
-            this.lstVisor.Items.Clear();
-            foreach (DataRow item in this.tabla.Rows)
-            {
-                this.lstVisor.Items.Add(item["nombre"].ToString() + " " + item["apellido"].ToString() + " " + item["edad"].ToString());
-            }
-        }
-
         protected override void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frmPersona = new frmPersona();
@@ -38,9 +29,9 @@ namespace AdminPersonas
             if(frmPersona.DialogResult == DialogResult.OK)
             {
                 DataRow fila = this.tabla.NewRow();
-                fila[1] = frmPersona.Persona.nombre;
-                fila[2] = frmPersona.Persona.apellido;
-                fila[3] = frmPersona.Persona.edad;
+                fila["nombre"] = frmPersona.Persona.nombre;
+                fila["apellido"] = frmPersona.Persona.apellido;
+                fila["edad"] = frmPersona.Persona.edad;
                 this.tabla.Rows.Add(fila);
                 this.actualizarListBox();
             }
@@ -53,9 +44,9 @@ namespace AdminPersonas
             frmPersona.ShowDialog();
             if (frmPersona.DialogResult == DialogResult.OK)
             {
-                fila[1] = frmPersona.Persona.nombre;
-                fila[2] = frmPersona.Persona.apellido;
-                fila[3] = frmPersona.Persona.edad;
+                fila["nombre"] = frmPersona.Persona.nombre;
+                fila["apellido"] = frmPersona.Persona.apellido;
+                fila["edad"] = frmPersona.Persona.edad;
                 this.actualizarListBox();
             }
         }
@@ -67,5 +58,16 @@ namespace AdminPersonas
             this.actualizarListBox();
         }
 
+        private void actualizarListBox()
+        {
+            this.lstVisor.Items.Clear();
+            foreach (DataRow item in this.tabla.Rows)
+            {
+                if (item.RowState != DataRowState.Deleted)
+                {
+                    this.lstVisor.Items.Add(item["nombre"].ToString() + " " + item["apellido"].ToString() + " " + item["edad"].ToString());
+                }
+            }
+        }
     }
 }

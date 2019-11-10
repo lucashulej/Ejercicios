@@ -177,25 +177,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
       "projectName": "Clase_08.Entidades",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\obj\\",
+      "projectPath": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\Clase_08.Entidades.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucas\\Desktop\\Ejercicios\\Hulej.Lucas\\Clase_08.Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
