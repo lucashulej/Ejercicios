@@ -126,5 +126,18 @@ namespace AdminPersonas
                 this.lstVisor.Items.Add(item.ToString());
             }
         }
+
+        private void frmVisorPersona_Load(object sender, EventArgs e)
+        {
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+        }
+
+        private void lstVisor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.btnModificar.Click -= new System.EventHandler(this.btnModificar_Click);
+            this.btnEliminar.Click -= new System.EventHandler(this.btnEliminar_Click);
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+        }
     }
 }
