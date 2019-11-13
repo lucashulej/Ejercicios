@@ -12,6 +12,7 @@ using Clase_20.Entidades;
 using System.Xml.Serialization;
 using System.IO;
 using System.Data.SqlClient;
+using System.Threading;
 
 namespace AdminPersonas
 {
@@ -159,16 +160,23 @@ namespace AdminPersonas
 
         private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Thread hilo = new Thread(this.SincronizarHilo);
+            hilo.Start();
+
+        }
+
+        private void SincronizarHilo()
+        {
+            Thread.Sleep(3000);
             try
             {
                 this.dataAdapter.Update(this.tablaPersonas);
                 MessageBox.Show("La base de datos fue actualizada");
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 MessageBox.Show(exception.Message);
             }
-
         }
     }
 }

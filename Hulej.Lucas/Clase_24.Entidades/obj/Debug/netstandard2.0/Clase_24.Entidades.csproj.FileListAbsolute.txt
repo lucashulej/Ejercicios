@@ -1,0 +1,9 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\bin\Debug\netstandard2.0\Clase_24.Entidades.deps.json
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\bin\Debug\netstandard2.0\Clase_24.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\bin\Debug\netstandard2.0\Clase_24.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.AssemblyInfoInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.AssemblyInfo.cs
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_24.Entidades\obj\Debug\netstandard2.0\Clase_24.Entidades.pdb
