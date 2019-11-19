@@ -8,7 +8,7 @@ namespace Clase_24.Entidades
         private string apellido;
         private int legajo;
         private double sueldo;
-        public event LimiteSueldoDelDelegado limiteSueldo;
+        public event LimiteSueldoDelDelegado limiteSueldo;,
 
         public string Nombre
         {

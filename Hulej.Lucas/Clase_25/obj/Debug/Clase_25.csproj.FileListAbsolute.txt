@@ -1,0 +1,12 @@
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Clase_25.exe.config
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Clase_25.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Clase_25.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Clase_25.Entidades.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Clase_25.Entidades.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\obj\Debug\Clase_25.csprojAssemblyReference.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\obj\Debug\Clase_25.csproj.CoreCompileInputs.cache
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\obj\Debug\Clase_25.csproj.CopyComplete
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\obj\Debug\Clase_25.exe
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\obj\Debug\Clase_25.pdb
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Entidades.Externa.Sellada.dll
+D:\Lucas Hulej\Ejercicios\Hulej.Lucas\Clase_25\bin\Debug\Entidades.Externa.dll
